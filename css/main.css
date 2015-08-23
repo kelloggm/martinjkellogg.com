@@ -1,0 +1,112 @@
+/* main.css */
+
+body {
+    margin: 0;
+    font-family: Palatino, serif;
+}
+
+p {
+    line-height: 120%;
+}
+
+a {
+    opacity: 0.7;
+    text-decoration: none;
+    border-bottom: dotted 1px #959595;
+    color: #000;
+}
+
+a:hover, a:focus, a.active {
+    opacity: 1;
+    border-bottom: solid 1px;
+}
+
+/* .topbar */
+
+.topbar {
+    background-color: #932629;
+    text-align: center;
+    padding: 1em;
+    color: #FFF;
+}
+
+.topbar h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: -0.2em;
+}
+
+.topbar a {
+    color: #FFF;
+}
+
+.topbar nav ul {
+    padding: 0px;
+}
+
+.topbar nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+.topbar nav ul li + li:before {
+    content: "  \00B7  ";
+    padding: 0px 10px;
+    opacity: 0.5;
+}
+
+/* container */
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+div.container {
+    margin: 1em auto;
+    width: auto;
+    max-width: 35em;
+    padding: 0em 1em;
+}
+
+.container img {
+    max-height: 40%;
+    margin: 0em auto;
+    display: block;
+    border: 10px solid #932629;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 1px 1px 5px #AAA;
+}
+
+/* projects */
+
+.summary {
+    clear: left;
+    margin-bottom: 3em;
+}
+
+.summary .header img {
+    max-height: 20%;
+    max-width: 20%;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: 10px solid #932629;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 1px 1px 5px #AAA;
+}
+
+.summary .header h1 {
+    /* position: relative; */
+    /* top: 18px; */
+    /* left: 10px; */
+    font-size: 1.4em;
+    text-align: left;
+    padding-top: 0.5em;
+    margin-bottom: 1em;
+}
+
