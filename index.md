@@ -9,5 +9,5 @@ title: Max Willsey - About
 I'm a senior [Computer Science](https://www.scs.cmu.edu) major at 
 [Carnegie Mellon University](http://www.cmu.edu).
 
-Read more about [some projects I've worked on](/projects) or check out my
-[resume](/resume.pdf) for the short version.
+Read more about some [projects](/projects) I've worked on or check out my
+[resume](https://www.dropbox.com/s/ahapjfm55y20apu/resume.pdf?raw=1) for the short version.
