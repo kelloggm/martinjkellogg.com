@@ -70,7 +70,8 @@ div.container {
 }
 
 .container img {
-    max-height: 40%;
+    max-height: 30%;
+    max-width: 30%;
     margin: 0em auto;
     display: block;
     border: 10px solid #932629;
@@ -88,8 +89,8 @@ div.container {
 }
 
 .summary .header img {
-    max-height: 20%;
-    max-width: 20%;
+    max-height: 15%;
+    max-width: 15%;
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
