@@ -1,113 +1,60 @@
 /* main.css */
 
 body {
-    margin: 0;
     font-family: Palatino, serif;
-}
-
-p {
-    line-height: 120%;
+    max-width: 850px;
+    margin: 0 auto; /* center the page */
 }
 
 a {
-    opacity: 0.7;
     text-decoration: none;
-    border-bottom: dotted 1px #959595;
-    color: #000;
+    color: firebrick;
 }
 
 a:hover, a:focus, a.active {
-    opacity: 1;
-    border-bottom: solid 1px;
+    text-decoration: underline;
 }
 
-/* .topbar */
-
-.topbar {
-    background-color: #932629;
-    text-align: center;
-    padding: 1em;
-    color: #FFF;
+header {
+    font-size: 130%;
 }
 
-.topbar h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: -0.2em;
+.faded {
+    color: #BBB;
 }
 
-.topbar a {
-    color: #FFF;
+#container {
+    overflow: auto;  /* maintain columns */
+    border-style: solid;
+    border-color: #BBB;
+    border-width: 1px 0;
 }
 
-.topbar nav ul {
-    padding: 0px;
+#container>*{
+    margin: 40px 40px; /* separate columns */
 }
 
-.topbar nav ul li {
-    list-style: none;
-    display: inline;
+aside {
+    float: left; /* on the left */
 }
 
-.topbar nav ul li + li:before {
-    content: "  \00B7  ";
-    padding: 0px 10px;
-    opacity: 0.5;
+img {
+    max-width: 200px;
+    border-radius: 10px;
+    border: 3px solid #BBB;
 }
 
-/* container */
-
-.container h1 {
-    text-align: center;
-    margin-bottom: 1em;
+section + section {
+    padding-top: 1em; /* space out sections */
 }
 
-div.container {
-    margin: 1em auto;
-    width: auto;
-    max-width: 35em;
-    padding: 0em 1em;
+.paper + .paper {
+    padding-top: 1em; /* space out papers */
 }
 
-.container img {
-    max-height: 30%;
-    max-width: 30%;
-    margin: 0em auto;
-    display: block;
-    border: 10px solid #932629;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    box-shadow: 1px 1px 5px #AAA;
+.paper .title {font-size: 120%;}
+
+@media only screen and (max-width: 850px) {
+    body {max-width: 600px;}
+    aside {float: none; text-align: center;}
 }
-
-/* projects */
-
-.summary {
-    clear: left;
-    margin-bottom: 3em;
-}
-
-.summary .header img {
-    max-height: 15%;
-    max-width: 15%;
-    float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    border: 10px solid #932629;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    box-shadow: 1px 1px 5px #AAA;
-}
-
-.summary .header h1 {
-    /* position: relative; */
-    /* top: 18px; */
-    /* left: 10px; */
-    font-size: 1.4em;
-    text-align: left;
-    padding-top: 0.5em;
-    margin-bottom: 1em;
-}
-
