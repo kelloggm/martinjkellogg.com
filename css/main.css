@@ -15,28 +15,23 @@ a:hover, a:focus, a.active {
     text-decoration: underline;
 }
 
-header {
-    font-size: 130%;
-}
+header {font-size: 130%;}
+header,footer {padding: 0 10px;}
 
-.faded {
-    color: #BBB;
-}
+.faded {color: #BBB;}
 
 #container {
-    overflow: auto;  /* maintain columns */
     border-style: solid;
     border-color: #BBB;
     border-width: 1px 0;
 }
 
-#container>*{
+#container > * {
+    overflow: auto;  /* maintain columns */
     margin: 40px 40px; /* separate columns */
 }
 
-aside {
-    float: left; /* on the left */
-}
+aside {float: left;}
 
 img {
     max-width: 200px;
@@ -44,17 +39,14 @@ img {
     border: 3px solid #BBB;
 }
 
-section + section {
-    padding-top: 1em; /* space out sections */
-}
+#papers dt {font-size: 120%;}
+#papers dd+dt {padding-top: 1em;}
 
-.paper + .paper {
-    padding-top: 1em; /* space out papers */
-}
-
-.paper .title {font-size: 120%;}
+#papers dd {margin: 0 1em;}
+#papers .author .me {font-weight:bold;}
 
 @media only screen and (max-width: 850px) {
     body {max-width: 600px;}
     aside {float: none; text-align: center;}
+    #container > * {margin: 10px 10px;}
 }
