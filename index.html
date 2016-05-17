@@ -1,92 +1,142 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-        <title>Max Willsey</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description"
-              content="Max Willsey, Senior Computer Science Major at Carnegie Mellon">
-        <link rel="canonical" href="http://maxwillsey.com">
-        <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
-        <header>
-            <h1>
-                Max Willsey
-            </h1>
-        </header>
+<head>
+    <meta charset="utf-8">
+    <title>Max Willsey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+            content="Max Willsey, Senior Computer Science Major at Carnegie Mellon">
+    <link rel="canonical" href="http://maxwillsey.com">
+<style>
+body {
+    font-family: Palatino, serif;
+    max-width: 850px;
+    margin: 0 auto; /* center the page */
+}
 
-        <div id="container">
+a {
+    text-decoration: none;
+    color: firebrick;
+}
 
-            <aside>
-                <img alt="A picture of me." src="/assets/max.jpg">
-                <section id="contact">
-                    Contact:
-                    <address>
-                        <a href="mailto:mwillsey@cmu.edu">mwillsey@cmu.edu</a>
-                    </address>
-                </section>
-            </aside>
+a:hover, a:focus, a.active {
+    text-decoration: underline;
+}
 
-            <main>
-                <section id="about">
-                    <p>
-                        I just graduated from
-                        <a href="http://www.cmu.edu">Carnegie Mellon University</a>.
-                        Starting in the fall, I'll be pursing my Ph.D. at the
-                        <a href="https://www.cs.washington.edu">University of Washington</a>
-                        with a focus on programming languages.
-                    </p>
-                    <p>
-                        My CV is
-                        <a href="/assets/resume.pdf">here</a>.
-                    </p>
-                </section>
+header {font-size: 130%;}
+header,footer {padding: 0 10px;}
 
-                <section id="papers">
-                    <h2>Papers</h2>
+.faded {color: #BBB;}
 
-                    <dl>
-                        <dt> <a href="/papers/cc0-linear16.pdf">
-                            Design and Implementation of Concurrent C0
-                        </a> </dt>
-                        <dd class="author">
-                            <span class="me">Max Willsey</span>, Rokhini Prabhu, and
-                            <a href="http://www.cs.cmu.edu/~fp/">Frank Pfenning</a>
-                        </dd>
-                        <dd class="venue">
-                            <a href="http://www.cs.cmu.edu/~linearity16/home.shtml">
-                                Fourth International Workshop on Linearity</a>,
-                            June 2016 (to appear)
-                        </dd>
+#container {
+    border-style: solid;
+    border-color: #BBB;
+    border-width: 1px 0;
+}
 
-                        <dt> <a href="/papers/cc0-thesis.pdf">
-                            Design and Implementation of Concurrent C0
-                        </a> </dt>
-                        <dd class="author"><span class="me">Max Willsey</span></dd>
-                        <dd class="venue">Senior Honors Thesis, May 2016</dd>
-                        <dd class="award">
-                            Designated as <em>Exemplary Thesis</em> by the senior thesis award committee
-                        </dd>
-                        <dd>
-                            [<a href="/papers/cc0-MoM16-poster.pdf">Poster</a>]
-                            [<a href="/papers/cc0-MoM16-slides.pdf">Slides</a>]
-                        </dd>
-                   <dl>
-                </section>
-            </main>
-        </div>
+#container > * {
+    overflow: auto;  /* maintain columns */
+    margin: 40px 40px; /* separate columns */
+}
 
-        <footer class="faded">
-            <p style="float:left;">
-                © 2016 Max Willsey
+aside {float: left;}
+
+img {
+    max-width: 200px;
+    border-radius: 10px;
+    border: 3px solid #BBB;
+}
+
+#papers dt {font-size: 120%;}
+#papers dd+dt {padding-top: 1em;}
+
+#papers dd {margin: 0 1em;}
+#papers .author .me {font-weight:bold;}
+
+@media only screen and (max-width: 850px) {
+    body {max-width: 600px;}
+    aside {float: none; text-align: center;}
+    #container > * {margin: 10px 10px;}
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>
+        Max Willsey
+    </h1>
+</header>
+
+<div id="container">
+
+    <aside>
+        <img alt="A picture of me." src="/assets/max.jpg">
+        <section id="contact">
+            Contact:
+            <address>
+                <a href="mailto:mwillsey@cmu.edu">mwillsey@cmu.edu</a>
+            </address>
+        </section>
+    </aside>
+
+    <main>
+        <section id="about">
+            <p>
+                I just graduated from
+                <a href="http://www.cmu.edu">Carnegie Mellon University</a>.
+                Starting in the fall, I'll be pursing my Ph.D. at the
+                <a href="https://www.cs.washington.edu">University of Washington</a>
+                with a focus on programming languages.
             </p>
-            <p style="float:right;">
-                View this site on
-                <a href="https://github.com/mwillsey/mwillsey.github.io">GitHub</a>
+            <p>
+                My CV is
+                <a href="/assets/resume.pdf">here</a>.
             </p>
-        </footer>
+        </section>
 
-    </body>
+        <section id="papers">
+            <h2>Papers</h2>
+
+            <dl>
+                <dt> <a href="/papers/cc0-linear16.pdf">
+                    Design and Implementation of Concurrent C0
+                </a> </dt>
+                <dd class="author">
+                    <span class="me">Max Willsey</span>, Rokhini Prabhu, and
+                    <a href="http://www.cs.cmu.edu/~fp/">Frank Pfenning</a>
+                </dd>
+                <dd class="venue">
+                    <a href="http://www.cs.cmu.edu/~linearity16/home.shtml">
+                        Fourth International Workshop on Linearity</a>,
+                    June 2016 (to appear)
+                </dd>
+
+                <dt> <a href="/papers/cc0-thesis.pdf">
+                    Design and Implementation of Concurrent C0
+                </a> </dt>
+                <dd class="author"><span class="me">Max Willsey</span></dd>
+                <dd class="venue">Senior Honors Thesis, May 2016</dd>
+                <dd class="award">
+                    Designated as <em>Exemplary Thesis</em> by the senior thesis award committee
+                </dd>
+                <dd>
+                    [<a href="/papers/cc0-MoM16-poster.pdf">Poster</a>]
+                    [<a href="/papers/cc0-MoM16-slides.pdf">Slides</a>]
+                </dd>
+            <dl>
+        </section>
+    </main>
+</div>
+
+<footer class="faded">
+    <p style="float:left;">
+        © 2016 Max Willsey
+    </p>
+    <p style="float:right;">
+        View this site on
+        <a href="https://github.com/mwillsey/mwillsey.github.io">GitHub</a>
+    </p>
+</footer>
+
+</body>
 </html>
