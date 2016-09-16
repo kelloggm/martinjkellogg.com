@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mwillsey
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mwillsey.com
+  * I am mwillsey (https://keybase.io/mwillsey) on keybase.
+  * I have a public key with fingerprint 280A 6AF6 FA2D 8CBD 0367  D1DD 9570 29D8 D5DB C405
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010113fe0a29f67839493b76871ac610ea38f5f571bd1606f27c0c8cb20006ad7cca0a",
+            "fingerprint": "280a6af6fa2d8cbd0367d1dd957029d8d5dbc405",
+            "host": "keybase.io",
+            "key_id": "957029d8d5dbc405",
+            "kid": "010113fe0a29f67839493b76871ac610ea38f5f571bd1606f27c0c8cb20006ad7cca0a",
+            "uid": "c92e92fcef23d19848a0ba2604ea6219",
+            "username": "mwillsey"
+        },
+        "service": {
+            "hostname": "mwillsey.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1473984648,
+    "expire_in": 157680000,
+    "prev": "43db35eb94d9d388f9ef110ea2e999f619cfacc1529d118c91e1320b1089c4cd",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIdAnicrVJbSFRBGF4tiza6g0VR4qEoyGLm3GcrSaWHwC5EVzSXOXPRk+ue7ezx
+rvkgmAVZClnUQxgEFaLgQ9HN0rLoAlkZScGCIiZEQfpQEWhzpF6ix56G+ef7vvm+
+j//RvBmBYFL/i1jKy+3fupOe97SWBg58MBurJcuhlVKoWipm0weLUBb3wsU2lUIS
+gABChTOAZcR1w1SQihTL0E0DYqJDwLBico1rBrQo1IHOZYMAYhJLBgDomBqEYICl
+DInb0ULmxlw76glZ2QRYx1znWKYCTIGiGxRSijQDyIiaVKMWUYEmiEVO3GcIcxaO
+s422I2biEp629w/8f/ZdOi1HkMyQzAnjskIhMlUTAwvLOlAZ1mWIfGCcuVFcwgS6
+pNyOROKizdoMSUzLbML8Yv0kfyE2EqdEcGOu4znEiYiXIs+LhXyiVxnzkeXMCv/W
+CFt2lIoaBaGMuXHbiUohKJDEs31RqBqKcKarZobEKmK2y8K2j9BEahEK+N+wMiGp
+KtRSNGYhlSKqmCZHjEO/EpERibYgIhwTAjXRLIQmQZBBRQYWBCYiKqGSn+po1JFC
+irCJC4Vk3C6MYq/UZVJt74P8mYGkYGBWSrK/XoHgnIV/lq790uypXY1nli0p4G3J
+13oPto50n2zvqmnOZ6FjRYVnK0ZHrqKeQNPCBp7dtSGnY5N63Juo697aP3nnubrl
++1jt0z3NX6fWZz8mT750uuHqFfTbzfu5eUNpuz/NrHr7oGdnzTp2dGDp7ncvqup/
+DAymzk+cOhgc7sofe927Ou3eYFNbxQRNtI29HQ9mfjyX82rVy+FtN5anH2k57Q25
+k4tvb17zGQxkFFzpOD/ecPj6+zozKb2yfi2q3bOl8+eivsS2rLnPeOaNi5mpvGZi
+TlX201H5Td+Jigt9t/aO9uUWlOwfHm9pytu3Mzj3QOLOgoKHifT2Ms3Ni+w4tDKk
+xy4PP/lyN+vr+vgvUttIuA==
+=VOmV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mwillsey
+
+==================================================================
