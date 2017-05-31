@@ -3,3 +3,5 @@ _site/
 *.swo
 *.swp
 local/
+Gemfile.lock
+*.out

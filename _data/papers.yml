@@ -1,0 +1,25 @@
+
+- title: Design and Implementation of Concurrent C0
+  authors:
+    - Max Willsey
+    - Rokhini Prabhu
+    - Frank Pfenning
+  type:
+  venue: International Workshop on Linearity 2016
+  venue_url: http://eptcs.web.cse.unsw.edu.au/content.cgi?LINEARITY2016
+  date: June 2016
+  url: /papers/cc0-linear16.pdf
+
+- title: Design and Implementation of Concurrent C0
+  authors:
+    - Max Willsey
+  type:
+  venue: Senior Honors Thesis
+  date: May 2016
+  url: /papers/cc0-thesis.pdf
+  extra: Designated as <em>Exemplary Thesis</em> by the senior thesis award committee
+  links:
+    - text: Poster
+      url: /papers/cc0-MoM16-poster.pdf
+    - text: Slides
+      url: /papers/cc0-MoM16-slides.pdf
