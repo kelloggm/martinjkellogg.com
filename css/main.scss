@@ -35,19 +35,17 @@ a:hover, a:focus, a.active {
 
 aside {
     flex: 1 100%;
-    padding: 10px 20px;
+    margin: 1em;
     @include desktop {
         flex: 1 0;
-        padding: 20px;
     }
 }
 
 main {
     flex: 1 100%;
-    padding: 10px 20px;
+    margin: 1em;
     @include desktop {
         flex: 3 0;
-        padding: 20px;
     }
 }
 
