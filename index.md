@@ -2,8 +2,10 @@
 layout: default
 ---
 
-I'm a first-year Ph.D. student at the [University of Washington][uw] with a
-focus on programming languages ([PLSE][plse]) and architecture ([Sampa][sampa]).
+I'm a first-year Ph.D. student at the University of Washington
+[Paul G. Allen School of Computer Science & Engineering][allen].
+I work between the [PLSE][], [Sampa][], and [MISL][] groups applying programming
+language techniques to problems in architecture and synthetic biology.
 
 I'm currently working on ways to design and program
 [domain-specific reconfigurable accelerators][dsra] by applying
@@ -14,9 +16,10 @@ architectures promise to make labs-on-a-chip (LoCs) scalable and affordable, but
 issues like high error rates, resource management, and concurrency make them
 difficult to program.
 
-[uw]:    https://www.cs.washington.edu
+[allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
 [sampa]: https://sampa.cs.washington.edu
+[misl]:  http://misl.cs.washington.edu
 [dsra]:  https://sampa.cs.washington.edu/projects/sdh-project.html
 
 ## News
