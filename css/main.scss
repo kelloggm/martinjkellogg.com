@@ -28,6 +28,33 @@ a:hover, a:focus, a.active {
     text-decoration: underline;
 }
 
+.hide p {
+	  padding:10px;
+	  margin:0
+}
+
+// input should come first
+.toggle-input {
+    display: none;
+
+    &:checked {
+        & ~ .toggle-label:after {
+            content: ' –';
+        }
+        & ~ .toggle-content {
+            height: auto;
+        }
+    }
+
+}
+.toggle-label:after {
+    content: ' +';
+}
+.toggle-content {
+    height: 0;
+    overflow: hidden;
+}
+
 #container {
     display: flex;
     flex-flow: row wrap;
