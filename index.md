@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I'm a first-year Ph.D. student at the University of Washington
+I'm a second-year Ph.D. student at the University of Washington
 [Paul G. Allen School of Computer Science & Engineering][allen].
 I work between the [PLSE][], [Sampa][], and [MISL][] groups applying programming
 language techniques to problems in architecture and synthetic biology.
