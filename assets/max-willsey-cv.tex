@@ -6,6 +6,9 @@
 \titleformat{\section}{}{}{0em}{\large\bf}
 \titleformat{\subsection}[runin]{}{}{0em}{\it}
 
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=2em}
+
 \title{Max Willsey's CV}
 \date{\today}
 \author{Max Willsey}
@@ -13,11 +16,11 @@
 \begin{document}
 
 \begin{center}
-  {\LARGE Max Willsey} \\
+  {\LARGE \bf Max Willsey} \\
   \vspace{1em}
-  \sf
+  \tt
   \href{mailto:mwillsey@cs.washington.edu}{mwillsey@cs.washington.edu} \\
-  \href{http://mwillsey.com}{mwillsey.com}
+  \href{https://www.mwillsey.com}{mwillsey.com}
 \end{center}
 
 \section{Education}
@@ -34,6 +37,14 @@ University Honors and College Honors in Computer Science \\
 Thesis: \href{http://maxwillsey.com/papers/cc0-thesis.pdf}{\textit{Design and Implementation of Concurrent C0}}
 
 \section{Current Projects}
+
+\subsection{Rapid and Reliable Microfluidic Programming for Domain Experts}
+\hfill Jun 2016 -- present \\
+with Luis Ceze, Molecular Information Systems Lab
+\begin{itemize}
+\item Designing a high-level, reliable abstraction for digital microfluidic devices
+\item Collaborating with synthetic biologists to implement libraries for domain-specific operations
+\end{itemize}
 
 \subsection{Domain-Specific Reconfigurable Accelerators}
 \hfill Sep 2016 -- present\\
@@ -71,7 +82,7 @@ University of Washington
 \subsection{Operating Systems} (15-410)
 \hfill Aug 2015 -- May 2016 \\
 Carnegie Mellon University
-% Responsible for holding office hours and evaluating student projects, including code review of several kernel implementations
+Responsible for holding office hours and evaluating student projects, including code review of several kernel implementations
 
 \section{Professional Experience}
 
@@ -91,27 +102,38 @@ Max Willsey, Rokhini Prabhu, and Frank Pfenning.
 Fourth International Workshop on Linearity, Electronic Proceedings in Theoretical Computer Science (EPTCS), June 2016
 
 \section{Awards}
-
-\subsection{Qualcomm Innovation Fellowship}
+\subsection{
+  \href{https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners}
+  {Qualcomm Innovation Fellowship}}
 \hfill May 2017 \\
 Program Synthesis for Domain Specific Reconfigurable Accelerators \\
 with Vincent Lee, Luis Ceze, Rastislav Bodik, Alvin Cheung
 
-\subsection{Exemplary Thesis}
+\subsection{
+  \href{http://www.cs.cmu.edu/~fp/students.html\#honors}
+  {Exemplary Thesis}}
 \hfill May 2016 \\
 Chosen by the senior thesis committee
 
-\subsection{Andrew Carnegie Scholar}
+\subsection{
+  \href{https://www.cmu.edu/student-affairs/slice/leadership/senior-leader-recognition.html}
+  {Senior Leadership Award}}
+\hfill May 2016
+
+\subsection{
+  \href{http://www.giving.cmu.edu/s/1410/giving/index.aspx?sid=1410&gid=1&pgid=416}
+  {Andrew Carnegie Scholar}}
 \hfill Sep 2016 \\
 40 seniors (of approx.~1500) selected by deans and dept.\ heads for leadership and academic excellence
 
-\section{Coursework}
+\section{Selected Coursework}
 
 
 \begin{minipage}[t]{0.45\linewidth}
   \raggedright
   \textbf{University of Washington}
   \begin{tabular}{ll}
+    599H & Computing for Social Good \\
     548 & Computer Architecture \\
     507 & Computer-Aided Reasoning \\
     544 & Database Management Systems \\
