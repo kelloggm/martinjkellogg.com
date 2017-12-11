@@ -6,3 +6,11 @@ layout: default
 {% for section in site.data.cv %}
     {% include cv-section.html section=section %}
 {% endfor %}
+
+<section id="papers" class="cv-section avoid-break">
+    <h1> Publications </h1>
+    {% assign bibs-newest-first = site.bib | reverse %}
+    {% for paper in bibs-newest-first %}
+        {% include paper.html paper=paper %}
+    {% endfor %}
+</section>
