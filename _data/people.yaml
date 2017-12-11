@@ -1,0 +1,34 @@
+
+mwillsey:
+  name: "Max Willsey"
+
+rokhini:
+  name: "Rokhini Prabhu"
+
+fp:
+  name: "Frank Pfenning"
+  webpage: "https://www.cs.cmu.edu/~fp/"
+
+alvin:
+  name: "Alvin Cheung"
+  webpage: "https://homes.cs.washington.edu/~akcheung/"
+
+luis:
+  name: "Luis Ceze"
+  webpage: "https://homes.cs.washington.edu/~luisceze/"
+
+ras:
+  name: "Ras Bodik"
+  webpage: "https://homes.cs.washington.edu/~bodik/"
+
+vlee:
+  name: "Vincent Lee"
+  webpage: "https://homes.cs.washington.edu/~vlee2/"
+
+jroesch:
+  name: "Jared Roesch"
+  webpage: "http://jroesch.github.io"
+
+misl:
+  name: "Molecular Information Systems Lab"
+  webpage: "http://misl.cs.washington.edu"

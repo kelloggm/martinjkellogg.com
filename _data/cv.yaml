@@ -1,0 +1,167 @@
+education:
+  name: Education
+  data:
+    uw:
+      name: University of Washington
+      start-date: "2016-09-01"
+      end-date: present
+      points:
+        - Ph.D. Computer Science
+    cmu:
+      name: Carnegie Mellon University
+      start-date: 2012-08-15
+      end-date: 2016-05-20
+      points:
+        - B.S. Computer Science
+        - Minor in Mathematics
+        - University Honors and College Honors in Computer Science
+        - "Thesis: [*Design and Implementation of Concurrent C0*](https://mwillsey.com/papers/cc0-thesis.pdf)"
+
+
+current-projects:
+  name: Current Projects
+  data:
+    puddle:
+      name: Rapid, Reliable Microfluidic Programming for Domain Experts
+      link: "http://misl.cs.washington.edu/projects/puddle.html"
+      start-date: 2016-06-01
+      end-date: present
+      people:
+        - luis
+        - misl
+      points:
+        - Designing a high-level, reliable abstraction for digital
+          microfluidic devices
+        - Collaborating with synthetic biologists to implement libraries for
+          domain-specific operations
+
+    sdh:
+      name: Domain-Specific Reconfigurable Accelerators
+      link: "https://sampa.cs.washington.edu/projects/sdh-project.html"
+      start-date: 2016-09-30
+      end-date: present
+      people:
+        - vlee
+        - luis
+        - ras
+        - alvin
+      points:
+        - Exploring methods for designing and programming DSRAs using
+          techniques like program synthesis
+        - Automatically identifying building blocks that implement
+          functionality across applications
+
+
+past-projects:
+  name: Past Projects
+  data:
+    cc0:
+      name: Concurrent C0 Design and Implementation
+      start-date: 2015-01-30
+      end-date: 2016-05-10
+      note: Senior Honors Thesis
+      people:
+        - fp
+      points:
+        - Worked on a concurrent extension to C0, a research project started
+          as a well-defined subset of C
+        - Used guarantees from session typing for efficient message passing
+          implementation including intelligent scheduling decisions, lower
+          memory impact, and deadlock free execution
+
+    interactive:
+      name: Abstractions for Concurrent Interactive Programs
+      start-date: 2014-08-30
+      end-date: 2014-12-10
+      people:
+        - umut
+      points:
+        - Worked on a functional programming for interaction, including an
+          implementation in OCaml
+
+
+teaching:
+  name: Teaching
+  data:
+    hwsw:
+      name: Hardware/Software Interface
+      start-date: 2016-12-20
+      end-date: 2017-03-20
+      note: UW CSE 351
+    os:
+      name: Operating Systems
+      start-date: 2015-08-10
+      end-date: 2016-05-10
+      note: CMU 15-140
+      points:
+        - Responsible for holding office hours and evaluating student projects,
+          including code review of several kernel implementations
+
+professional:
+  name: Professional Experience
+  data:
+    apple2:
+      name: Apple
+      start-date: 2015-05-01
+      end-date: 2015-08-01
+      note: iOS Performance
+    apple1:
+      name: Apple
+      start-date: 2014-05-01
+      end-date: 2014-08-01
+      note: Siri Operations
+    sei:
+      name: SEI at Carnegie Mellon
+      start-date: 2013-05-01
+      end-date: 2013-08-01
+
+awards:
+  name: Awards
+  data:
+    qinf:
+      name: Qualcomm Innovation Fellowship
+      link: "https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
+      date: 2017-05-04
+      note: "*Program Synthesis for Domain Specific Reconfigurable Accelerators*"
+      people:
+        - vlee
+        - luis
+        - ras
+        - alvin
+    cc0-thesis:
+      name: Exemplary Thesis
+      link: "http://www.cs.cmu.edu/~fp/students.html#honors"
+      date: 2016-05-04
+      note: Chosen by the senior thesis committee
+    acs:
+      name: Andrew Carnegie Scholar
+      link: "http://www.giving.cmu.edu/s/1410/giving/index.aspx?sid=1410&gid=1&pgid=416"
+      date: 2016-09-04
+    senior-leadership:
+      name: Senior Leadership Awards
+      link: "https://www.cmu.edu/student-affairs/slice/leadership/senior-leader-recognition.html"
+      date: 2016-05-04
+      note: 40 seniors (of approx. 1500) selected by deans and dept. heads for
+            leadership and academic excellence
+
+courses:
+  name: Selected Coursework
+  data:
+    uw:
+      name: University of Washington
+      points:
+        - 599H - Computing for Social Good
+        - 548 - Computer Architecture
+        - 507 - Computer-Aided Reasoning
+        - 544 - Database Management Systems
+    cmu:
+      name: Carnegie Mellon University
+      points:
+        - 15-417 - Higher Order Compilation
+        - 15-411 - Compiler Design
+        - 15-312 - Programming Languages
+        - 15-410 - Operating Systems
+        - 15-451 - Algorithm Design/Analysis
+        - 15-213 - Computer Systems
+        - 21-484 - Graph Theory
+        - 15-396 - Science of the Web

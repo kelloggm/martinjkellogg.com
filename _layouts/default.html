@@ -6,29 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
           content="Max Willsey, PhD Student at the University of Washington">
-    <link rel="canonical" href="http://mwillsey.com">
+    <link rel="canonical" href="https://www.mwillsey.com">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
 <div id="container">
 
     <aside>
-        <div id="photo">
-            <img alt="Max Willsey" src="/assets/max.jpg">
-            <h1> Max Willsey </h1>
+        <div id="photo" class="screen-only">
+            <img alt="Max Willsey" title="Max Willsey" src="/assets/max.jpg">
         </div>
+        <h1> Max Willsey </h1>
         <section id="contact">
             <address>
                 <a href="mailto:me@mwillsey.com">me@mwillsey.com</a>
             </address>
-            <address>
+            <address class="print-only">
+                <a href="https://www.mwillsey.com">mwillsey.com</a>
+            </address>
+            <address class="screen-only">
                 <a href="https://github.com/mwillsey">GitHub</a>
             </address>
-            <input type="checkbox" id="academic-links" class="toggle-input">
-            <label class="toggle-label" for="academic-links">Academic Links</label>
-            <div class="toggle-content">
+            <address class="screen-only">
+                <a href="https://twitter.com/mwillsey">Twitter</a>
+            </address>
+            <input type="checkbox" id="academic-links" class="toggle-input screen-only">
+            <label class="toggle-label screen-only" for="academic-links">Academic Links</label>
+            <div class="toggle-content screen-only">
                 <address>
-                    <a href="/assets/max-willsey-cv.pdf">Curriculum Vitae</a>
+                    <a href="/cv.html">Curriculum Vitae</a>
                 </address>
                 <address>
                     <a href="https://orcid.org/0000-0001-8066-4218">ORCID</a>

@@ -4,23 +4,26 @@ layout: default
 
 I'm a second-year Ph.D. student at the University of Washington
 [Paul G. Allen School of Computer Science & Engineering][allen].
-I work between the [PLSE][], [Sampa][], and [MISL][] groups applying programming
+I work between the [PLSE][], [MISL][], and [Sampa][] groups applying programming
 language techniques to problems in architecture and synthetic biology.
 
-I'm currently working on ways to design and program
+I'm currently working on programming models for microfluidic chips. These
+architectures promise to make labs-on-a-chip (LoCs) scalable and affordable, but
+issues like high error rates, resource management, and concurrency make them
+difficult to program. The [Puddle][] framework aims to provide a safer, easier
+way to program these devices.
+
+I'm also working on ways to design and program
 [domain-specific reconfigurable accelerators][dsra] by applying
 techniques from programming languages to architecture design.
 
-I'm also working on programming models for microfluidic chips. These
-architectures promise to make labs-on-a-chip (LoCs) scalable and affordable, but
-issues like high error rates, resource management, and concurrency make them
-difficult to program.
 
 [allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
 [sampa]: https://sampa.cs.washington.edu
 [misl]:  http://misl.cs.washington.edu
 [dsra]:  https://sampa.cs.washington.edu/projects/sdh-project.html
+[puddle]: http://misl.cs.washington.edu/projects/puddle.html
 
 ## News
 
@@ -36,7 +39,8 @@ difficult to program.
 ## Papers
 
 <section id="papers">
-{% for paper in site.data.papers %}
-{% include paper.html paper=paper %}
-{% endfor %}
+  {% assign bibs-newest-first = site.bib | reverse %}
+  {% for paper in bibs-newest-first %}
+    {% include paper.html paper=paper %}
+  {% endfor %}
 </section>

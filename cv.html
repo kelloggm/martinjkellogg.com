@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+
+{% for section in site.data.cv %}
+    {% include cv-section.html section=section %}
+{% endfor %}

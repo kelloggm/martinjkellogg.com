@@ -1,0 +1,45 @@
+
+<section id="{{ include.section[0] }}" class="cv-section avoid-break">
+    <h1> {{ include.section[1].name }} </h1>
+
+    {% for item-hash in include.section[1].data %}
+        {% assign item = item-hash[1] %}
+        <h3> {% include link.html
+                text=item.name
+                url=item.link %}
+        </h3>
+
+        <div class="date">
+            {% if item.date %}
+                {{ item.date | date: "%B %Y" }}
+            {% elsif item.start-date %}
+                {{ item.start-date | date: "%B %Y" }}
+            {% endif %}
+            {% if item.end-date %}
+                &ndash;
+                {{ item.end-date | date: "%B %Y" }}
+            {% endif %}
+        </div>
+
+        <div class="note"> {{ item.note | markdownify | remove: "<p>" | remove: "</p>" }} </div>
+
+        <ul class="people comma-list">
+            {% for person_key in item.people %}
+                <li>
+                    {% assign person = site.data.people[person_key] %}
+                    {% include link.html
+                       text=person.name
+                       url=person.webpage -%}
+                </li>
+            {% endfor %}
+        </ul>
+
+        <ul class="points tight-list">
+            {% for point in item.points %}
+                <li> {{ point | markdownify | remove: "<p>" | remove: "</p>" }} </li>
+            {% endfor %}
+        </ul>
+
+    {% endfor %}
+
+</section>
