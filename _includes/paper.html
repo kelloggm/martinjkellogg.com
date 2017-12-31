@@ -6,25 +6,6 @@
     %}
 </dt>
 
-{% capture authors %}
-    {% for a_key in paper.authors %}
-        {% assign a = site.data.people[a_key] %}
-
-        {%- if a_key == "mwillsey" -%}
-            {% assign class = "author me" %}
-        {%- else -%}
-            {% assign class = "author" %}
-        {%- endif -%}
-
-        {%- include link.html
-            url=a.webpage
-            text=a.name
-            class=class
-        -%}
-        SEPARATOR
-    {% endfor %}
-{% endcapture %}
-
 <dd class="paper-authors">
     <ul class="comma-list">
         {% for a_key in paper.authors %}
@@ -64,5 +45,7 @@
     {% for link in paper.links %}
         [<a href="{{ link.url }}">{{ link.text }}</a>]
     {% endfor %}
-    [<a href="{{ paper.url }}">bibtex</a>]
+    {% if paper.content != "" %}
+        [<a href="{{ paper.url }}">bibtex</a>]
+    {% endif %}
 </dd>
