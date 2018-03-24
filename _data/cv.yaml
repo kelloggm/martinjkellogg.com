@@ -24,7 +24,7 @@ current-projects:
     puddle:
       name: Rapid, Reliable Microfluidic Programming for Domain Experts
       link: "http://misl.cs.washington.edu/projects/puddle.html"
-      start-date: 2016-06-01
+      start-date: 2017-06-01
       end-date: present
       people:
         - luis
@@ -34,6 +34,7 @@ current-projects:
           microfluidic devices
         - Collaborating with synthetic biologists to implement libraries for
           domain-specific operations
+        - Working with and mentoring 4 undergrad students
 
     sdh:
       name: Domain-Specific Reconfigurable Accelerators
