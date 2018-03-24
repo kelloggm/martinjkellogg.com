@@ -27,10 +27,17 @@ techniques from programming languages to architecture design.
 
 ## News
 
+{% capture this_year %} {{ 'now' | date: "%Y" }} {% endcapture %}
+
 <section id="news">
 {% for post in site.posts %}
 <div class="news-item">
+{% capture post_year %} {{ post.date | date: "%Y" }} {% endcapture %}
+{% if post_year == this_year %}
 <div class="date"> {{ post.date | date: "%b&nbsp;%-d" }} </div>
+{% else %}
+<div class="date"> {{ post.date | date: "%Y&nbsp;%b" }} </div>
+{% endif %}
 <div class="content"> {{ post.content }} </div>
 </div>
 {% endfor %}
