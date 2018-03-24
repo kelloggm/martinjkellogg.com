@@ -13,3 +13,4 @@ future: true
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
