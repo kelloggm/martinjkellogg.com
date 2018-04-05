@@ -119,6 +119,10 @@ professional:
 awards:
   name: Awards
   data:
+    nsf-grfp-hm:
+      name: NSF Graduate Research Fellowship Program Honorable Mention
+      link: "https://www.fastlane.nsf.gov/grfp/AwardeeList.do?method=sort"
+      date: 2018-04-02
     qinf:
       name: Qualcomm Innovation Fellowship
       link: "https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
