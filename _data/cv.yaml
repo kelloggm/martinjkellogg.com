@@ -155,6 +155,7 @@ courses:
     uw:
       name: University of Washington
       points:
+        - 599C - Finite Model Theory
         - 599H - Computing for Social Good
         - 548 - Computer Architecture
         - 507 - Computer-Aided Reasoning
