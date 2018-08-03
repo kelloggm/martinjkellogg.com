@@ -20,10 +20,9 @@ serve:
 clean:
 	$(RM) -r _site
 
-DEPLOY_HOST ?= mwillsey.com
-DEPLOY_PATH ?= /srv/http/mwillsey.com/
+DEPLOY_PATH ?= /var/www/html/mwillsey.com/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete \
 	     --perms --owner --group --times -e ssh --chmod=g-w --chown=:web
 
 deploy: clean build
-	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+	$(RSYNC) _site/ $(DEPLOY_PATH)
