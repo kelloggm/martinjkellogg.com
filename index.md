@@ -13,16 +13,10 @@ issues like high error rates, resource management, and concurrency make them
 difficult to program. The [Puddle][] framework aims to provide a safer, easier
 way to program these devices.
 
-I'm also working on ways to design and program
-[domain-specific reconfigurable accelerators][dsra] by applying
-techniques from programming languages to architecture design.
-
-
 [allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
 [sampa]: https://sampa.cs.washington.edu
 [misl]:  http://misl.cs.washington.edu
-[dsra]:  https://sampa.cs.washington.edu/projects/sdh-project.html
 [puddle]: http://misl.cs.washington.edu/projects/puddle.html
 
 ## News
