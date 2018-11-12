@@ -47,8 +47,10 @@ I (with the help of several others) maintain [crossbot][], your friendly neighbo
 
 <section id="papers">
   <h2> Papers </h2>
-  {% assign bibs-newest-first = site.bib | reverse %}
-  {% for paper in bibs-newest-first %}
-    {% include paper.html paper=paper %}
-  {% endfor %}
+  <dl>
+    {% assign bibs-newest-first = site.bib | reverse %}
+    {% for paper in bibs-newest-first %}
+      {% include paper.html paper=paper %}
+    {% endfor %}
+  </dl>
 </section>
