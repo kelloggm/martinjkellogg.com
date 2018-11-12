@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<section id="intro" markdown="1">
+
 I'm a third-year Ph.D. student at the University of Washington
 [Paul G. Allen School of Computer Science & Engineering][allen].
 I work between the [PLSE][], [MISL][], and [Sampa][] groups applying programming
@@ -24,11 +26,12 @@ I (with the help of several others) maintain [crossbot][], your friendly neighbo
 [rcr]: http://raceconditionrunning.com/
 [crossbot]: https://github.com/mwillsey/crossbot
 
-## News
+</section>
 
 {% capture this_year %} {{ 'now' | date: "%Y" }} {% endcapture %}
 
 <section id="news">
+  <h2> News </h2>
   {% for post in site.posts %}
   <div class="news-item">
     {% capture post_year %} {{ post.date | date: "%Y" }} {% endcapture %}
@@ -42,9 +45,8 @@ I (with the help of several others) maintain [crossbot][], your friendly neighbo
   {% endfor %}
 </section>
 
-## Papers
-
 <section id="papers">
+  <h2> Papers </h2>
   {% assign bibs-newest-first = site.bib | reverse %}
   {% for paper in bibs-newest-first %}
     {% include paper.html paper=paper %}
