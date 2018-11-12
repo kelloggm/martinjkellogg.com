@@ -100,7 +100,6 @@ img {
     flex-flow: row wrap;
 
     .date {
-        color: $dim;
         padding-bottom: 0.5em;
         @include desktop {
             flex: 1;
