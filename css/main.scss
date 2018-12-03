@@ -3,7 +3,7 @@
 /* ^ needed for jekyll */
 
 $accent: #217800;
-$accent-light: rgba( $accent, .3 );
+$accent-light: rgba( $accent, .2 );
 $dim:    #999;
 
 $desktop-width: 40em;
@@ -21,7 +21,7 @@ body {
 }
 
 a {
-    text-decoration: underline dotted $accent-light;
+    text-decoration: underline $accent-light;
     color: $accent;
 }
 
