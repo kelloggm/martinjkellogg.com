@@ -90,7 +90,10 @@ img {
 }
 
 #papers {
-    dd { margin-left: 1em; }
+    dd {
+        margin-left: 2em;
+        text-indent: -1em;
+    }
     .author .me { font-weight:bold; }
     .paper-title {
         font-size: 110%;
