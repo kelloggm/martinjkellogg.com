@@ -151,6 +151,15 @@ img {
     h3 { margin-bottom: 0px }
 }
 
+footer {
+    border-top: solid 1px #DDD;
+    padding: 1em;
+    margin: 0em 1em;
+    text-align: center;
+    color: $dim;
+    font-size: 50%;
+}
+
 @media screen {
     .print-only { display: none }
 }
