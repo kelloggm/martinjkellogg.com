@@ -32,3 +32,44 @@ jroesch:
 misl:
   name: "Molecular Information Systems Lab"
   webpage: "http://misl.cs.washington.edu"
+
+ashsteph:
+  name: "Ashley Stephenson"
+
+cnt:
+  name: "Chris Takahashi"
+
+pranav:
+  name: "Pranav Vaid"
+
+bichlien:
+  name: "Bichlien Nguyen"
+
+michalp:
+  name: "Michal Piszczek"
+
+cbetts:
+  name: "Christine Betts"
+  webpage: "https://christinebetts.com/"
+
+sharon:
+  name: "Sharon Newman"
+
+sarang:
+  name: "Sarang Joshi"
+
+karin:
+  name: "Karin Strauss"
+  webpage: "https://www.microsoft.com/en-us/research/people/kstrauss/"
+
+georg:
+  name: "Georg Seelig"
+  webpage: "https://homes.cs.washington.edu/~seelig/"
+
+dougcarmean:
+  name: "Douglas Carmean"
+  webpage: "https://www.microsoft.com/en-us/research/people/dcarmean/"
+
+kendall:
+  name: "Kendall Stewart"
+  webpage: "https://homes.cs.washington.edu/~kstwrt/"
