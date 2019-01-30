@@ -6,7 +6,7 @@ $accent: #217800;
 $accent-light: rgba( $accent, .2 );
 $dim:    #999;
 
-$desktop-width: 40em;
+$desktop-width: 800px;
 
 @mixin desktop {
     @media only screen and (min-width: #{$desktop-width}) {
@@ -17,7 +17,7 @@ $desktop-width: 40em;
 body {
     font-family: Palatino, serif;
     margin: 0 auto; /* center the page */
-    max-width: $desktop-width + 10em;
+    max-width: $desktop-width + 200px;
 }
 
 a {
