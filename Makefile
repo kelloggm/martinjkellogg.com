@@ -4,7 +4,12 @@
 all: build
 
 
+ifdef IN_NIX_SHELL
+JEKYLL=jekyll
+else
 JEKYLL=bundler exec jekyll
+endif
+
 
 build:
 	$(JEKYLL) build
