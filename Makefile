@@ -25,7 +25,7 @@ serve:
 clean:
 	$(RM) -r _site
 
-DEPLOY_PATH ?= /var/www/html/mwillsey.com/
+DEPLOY_PATH ?= mwillsey.com:/var/www/mwillsey.com/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete \
 	     --perms --owner --group --times -e ssh --chmod=g-w --chown=:web
 
