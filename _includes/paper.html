@@ -44,6 +44,9 @@
     {% if paper.content != "" %}
         [<a href="{{ paper.url }}">bibtex</a>]
     {% endif %}
+    {% if paper.doi %}
+        [<a href="https://doi.org/{{ paper.doi }}">doi</a>]
+    {% endif %}
     {% for link in paper.links %}
         [<a href="{{ link.url }}">{{ link.text }}</a>]
     {% endfor %}
