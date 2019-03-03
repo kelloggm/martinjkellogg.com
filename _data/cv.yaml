@@ -19,10 +19,10 @@ education:
 
 
 current-projects:
-  name: Current Projects
+  name: Current Research
   data:
     puddle:
-      name: Rapid, Reliable Microfluidic Programming for Domain Experts
+      name: High-level Microfluidic Programming
       link: "http://misl.cs.washington.edu/projects/puddle.html"
       start-date: 2017-06-01
       end-date: present
@@ -36,9 +36,14 @@ current-projects:
           domain-specific operations
         - Working with and mentoring several undergrad students
 
+
+
+past-projects:
+  name: Past Projects
+  data:
+
     sdh:
       name: Domain-Specific Reconfigurable Accelerators
-      link: "https://sampa.cs.washington.edu/projects/sdh-project.html"
       start-date: 2016-09-30
       end-date: present
       people:
@@ -47,15 +52,11 @@ current-projects:
         - ras
         - alvin
       points:
-        - Exploring methods for designing and programming DSRAs using
+        - Explored methods for designing and programming DSRAs using
           techniques like program synthesis
-        - Automatically identifying building blocks that implement
+        - Automatically identified building blocks that implement
           functionality across applications
 
-
-past-projects:
-  name: Past Projects
-  data:
     cc0:
       name: Concurrent C0 Design and Implementation
       start-date: 2015-01-30
@@ -84,19 +85,22 @@ past-projects:
 teaching:
   name: Teaching
   data:
-    hwsw:
-      name: Hardware/Software Interface
+    351:
+      name: "UW CSE 351: Hardware/Software Interface"
+      link: https://courses.cs.washington.edu/courses/cse351/19wi/
+      start-date: 2019-01-07
+      end-date: 2019-03-20
+      note: "Co-instructor with [Luis Ceze](https://homes.cs.washington.edu/~luisceze/)"
+    351-ta:
+      name: "UW CSE 351: Hardware/Software Interface"
       start-date: 2016-12-20
       end-date: 2017-03-20
-      note: UW CSE 351
+      note: Teaching assistant
     os:
-      name: Operating Systems
+      name: "CMU 15-410: Operating Systems"
       start-date: 2015-08-10
       end-date: 2016-05-10
-      note: CMU 15-140
-      points:
-        - Responsible for holding office hours and evaluating student projects,
-          including code review of several kernel implementations
+      note: Teaching assistant
 
 professional:
   name: Professional Experience
