@@ -1,7 +1,7 @@
-title: Max Willsey
+title: Martin Kellogg
 
-baseurl: ""
-url: "mwillsey.com"
+baseurl: "/~kelloggm/"
+url: "https://homes.cs.washington.edu/"
 
 collections:
   bib:

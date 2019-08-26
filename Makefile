@@ -4,11 +4,7 @@
 all: build
 
 
-ifdef IN_NIX_SHELL
-JEKYLL=jekyll
-else
 JEKYLL=bundler exec jekyll
-endif
 
 
 build:
@@ -25,7 +21,7 @@ serve:
 clean:
 	$(RM) -r _site
 
-DEPLOY_PATH ?= mwillsey.com:/var/www/mwillsey.com/
+DEPLOY_PATH ?= bam.cs.washington.edu:/cse/web/homes/kelloggm/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete \
 	     --perms --owner --group --times -e ssh --chmod=g-w --chown=:web
 

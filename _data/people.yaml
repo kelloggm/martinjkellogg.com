@@ -1,75 +1,23 @@
+kelloggm:
+  name: "Martin Kellogg"
 
-mwillsey:
-  name: "Max Willsey"
+mernst:
+  name: "Michael D. Ernst"
+  webpage: "https://homes.cs.washington.edu/~mernst/"
 
-rokhini:
-  name: "Rokhini Prabhu"
+weimer:
+  name: "Wes Weimer"
+  webpage: "https://web.eecs.umich.edu/~weimerw/"
 
-fp:
-  name: "Frank Pfenning"
-  webpage: "https://www.cs.cmu.edu/~fp/"
+jamie:
+  name: "Benjamin Floyd"
 
-alvin:
-  name: "Alvin Cheung"
-  webpage: "https://homes.cs.washington.edu/~akcheung/"
+steph:
+  name: "Stephanie Forrest"
+  webpage: "https://www.cs.unm.edu/~forrest/"
 
-luis:
-  name: "Luis Ceze"
-  webpage: "https://homes.cs.washington.edu/~luisceze/"
+vlastimil:
+  name: "Vlastimil Dort"
 
-ras:
-  name: "Ras Bodik"
-  webpage: "https://homes.cs.washington.edu/~bodik/"
-
-vlee:
-  name: "Vincent Lee"
-  webpage: "https://homes.cs.washington.edu/~vlee2/"
-
-jroesch:
-  name: "Jared Roesch"
-  webpage: "http://jroesch.github.io"
-
-misl:
-  name: "Molecular Information Systems Lab"
-  webpage: "http://misl.cs.washington.edu"
-
-ashsteph:
-  name: "Ashley Stephenson"
-
-cnt:
-  name: "Chris Takahashi"
-
-pranav:
-  name: "Pranav Vaid"
-
-bichlien:
-  name: "Bichlien Nguyen"
-
-michalp:
-  name: "Michal Piszczek"
-
-cbetts:
-  name: "Christine Betts"
-  webpage: "https://christinebetts.com/"
-
-sharon:
-  name: "Sharon Newman"
-
-sarang:
-  name: "Sarang Joshi"
-
-karin:
-  name: "Karin Strauss"
-  webpage: "https://www.microsoft.com/en-us/research/people/kstrauss/"
-
-georg:
-  name: "Georg Seelig"
-  webpage: "https://homes.cs.washington.edu/~seelig/"
-
-dougcarmean:
-  name: "Douglas Carmean"
-  webpage: "https://www.microsoft.com/en-us/research/people/dcarmean/"
-
-kendall:
-  name: "Kendall Stewart"
-  webpage: "https://homes.cs.washington.edu/~kstwrt/"
+smillst:
+  name: "Suzanne Millstein"

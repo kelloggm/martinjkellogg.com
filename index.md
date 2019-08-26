@@ -4,27 +4,23 @@ layout: default
 
 <section id="intro" markdown="1">
 
-I'm a third-year Ph.D. student at the University of Washington
+I'm a Ph.D. student at the University of Washington
 [Paul G. Allen School of Computer Science & Engineering][allen].
-I work between the [PLSE][], [MISL][], and [Sampa][] groups applying programming
-language techniques to problems in architecture and synthetic biology.
+I work in the [PLSE][] group on lightweight software verification.
+My advisor is [Mike Ernst][mernst].
 
-I'm currently working on programming models for microfluidic chips. These
-architectures promise to make labs-on-a-chip (LoCs) scalable and affordable, but
-issues like high error rates, resource management, and concurrency make them
-difficult to program. The [Puddle][] framework aims to provide a safer, easier
-way to program these devices.
+My current work is focused on building type systems on top
+of the [Checker Framework][cf] to solve practical problems
+in software engineering.
 
-Outside of work, I enjoy [running][rcr], reading, and crosswords.
-I (with the help of several others) maintain [crossbot][], your friendly neighborhood crossword-tracking robot.
+Outside of work, I enjoy playing games, sharing beverages with friends,
+or both at the same time. Favorite games include Civilization 5, dungeons
+and dragons, and Dominion. Favorite beverages include tea and absinthe.
 
 [allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
-[sampa]: https://sampa.cs.washington.edu
-[misl]:  http://misl.cs.washington.edu
-[puddle]: http://misl.cs.washington.edu/projects/puddle.html
-[rcr]: http://raceconditionrunning.com/
-[crossbot]: https://github.com/mwillsey/crossbot
+[mernst]: https://homes.cs.washington.edu/~mernst/
+[cf]: https://checkerframework.org/
 
 </section>
 
