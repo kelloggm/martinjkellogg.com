@@ -10,7 +10,7 @@
         {% for a_key in paper.authors %}
             {% assign a = site.data.people[a_key] %}
 
-            {%- if a_key == "mwillsey" -%}
+            {%- if a_key == "kelloggm" -%}
                 {% assign class = "author me" %}
             {%- else -%}
                 {% assign class = "author" %}
@@ -42,7 +42,7 @@
 
 <dd>
     {% if paper.content != "" %}
-        [<a href="{{ paper.url }}">bibtex</a>]
+        [<a href="/~kelloggm/{{ paper.url }}">bibtex</a>]
     {% endif %}
     {% if paper.doi %}
         [<a href="https://doi.org/{{ paper.doi }}">doi</a>]
