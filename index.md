@@ -13,9 +13,9 @@ My current work is focused on building type systems on top
 of the [Checker Framework][cf] to solve practical problems
 in software engineering.
 
-Outside of work, I enjoy playing games, sharing beverages with friends,
-or both at the same time. Favorite games include Civilization 5, dungeons
-and dragons, and Dominion. Favorite beverages include tea and absinthe.
+Outside of work, I enjoy playing games, skiing, and sharing beverages
+with friends. Favorite games include Civilization, dungeons and
+dragons, and Dominion. Favorite beverages include tea and absinthe.
 
 [allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
