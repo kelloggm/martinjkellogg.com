@@ -9,6 +9,8 @@ I'm a Ph.D. student at the University of Washington
 I work in the [PLSE][] group on lightweight software verification.
 My advisor is [Mike Ernst][mernst].
 
+I'll be on the academic job market in the coming cycle (2021-2022).
+
 My current work is focused on building type systems on top
 of the [Checker Framework][cf] to solve practical problems
 in software engineering.
