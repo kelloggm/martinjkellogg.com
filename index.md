@@ -9,20 +9,27 @@ I'm a Ph.D. student at the University of Washington
 I work in the [PLSE][] group on lightweight software verification.
 My advisor is [Mike Ernst][mernst].
 
-I'll be on the academic job market in the coming cycle (2021-2022).
+I'll be on the academic job market this cycle (2021-2022). I am
+primarily interested in a research tenure-track position at an institution
+within about a half-day's drive of Washington, DC. [CV][]
 
-My current work is focused on building type systems on top
-of the [Checker Framework][cf] to solve practical problems
+My current work is focused on building type systems using
+the [Checker Framework][cf] to solve practical problems
 in software engineering.
 
-Outside of work, I enjoy playing games, skiing, and sharing beverages
-with friends. Favorite games include Civilization, dungeons and
-dragons, and Dominion. Favorite beverages include tea and absinthe.
+Outside of work, I enjoy playing all kinds of games---video, tabletop,
+board, etc.---skiing, watching baseball and soccer,
+reading, and a little bit of tea snobbery.
+Some of my favorite games include Civilization, dungeons and
+dragons, and Dominion. I'm a big fan of the Washington Nationals
+and of the Seattle Sounders. Recently I've been re-reading Robert
+Jordan's Wheel of Time in preparation for the new TV show.
 
 [allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
 [mernst]: https://homes.cs.washington.edu/~mernst/
 [cf]: https://checkerframework.org/
+[cv]: assets/cv.pdf
 
 </section>
 
