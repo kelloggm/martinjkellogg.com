@@ -11,7 +11,11 @@ My advisor is [Mike Ernst][mernst].
 
 I'll be on the academic job market this cycle (2021-2022). I am
 primarily interested in a research tenure-track position at an institution
-within about a half-day's drive of Washington, DC. [CV][]
+within about a half-day's drive of Washington, DC.
+[CV][]
+[Research statement][rs]
+[Teaching statement][ts]
+[Diversity and Inclusion statement][deis]
 
 My current work is focused on building type systems using
 the [Checker Framework][cf] to solve practical problems
@@ -30,6 +34,9 @@ Jordan's Wheel of Time in preparation for the new TV show.
 [mernst]: https://homes.cs.washington.edu/~mernst/
 [cf]: https://checkerframework.org/
 [cv]: assets/cv.pdf
+[rs]: assets/research_statement.pdf
+[ts]: assets/teaching_statement.pdf
+[deis]: assets/dei_statement.pdf
 
 </section>
 
