@@ -9,7 +9,7 @@ I'm a Ph.D. student at the University of Washington
 I work in the [PLSE][] group on lightweight software verification.
 My advisor is [Mike Ernst][mernst].
 
-I'll be on the academic job market this cycle (2021-2022). I am
+I am on the academic job market this cycle (2021-2022). I am
 primarily interested in a research tenure-track position at an institution
 within about a half-day's drive of Washington, DC.
 [CV][]
@@ -17,15 +17,15 @@ within about a half-day's drive of Washington, DC.
 [Teaching statement][ts]
 [Diversity and Inclusion statement][deis]
 
-My current work is focused on building type systems using
-the [Checker Framework][cf] to solve practical problems
-in software engineering.
+My work is focused on solving practical problems
+in software engineering using techniques from program analysis,
+including pluggable type systems and typestate analysis.
 
 Outside of work, I enjoy playing all kinds of games---video, tabletop,
 board, etc.---skiing, watching baseball and soccer,
 reading, and a little bit of tea snobbery.
-Some of my favorite games include Civilization, dungeons and
-dragons, and Dominion. I'm a big fan of the Washington Nationals
+Some of my favorite games include Civilization, Dungeons and
+Dragons, and Dominion. I'm a big fan of the Washington Nationals
 and of the Seattle Sounders. Recently I've been re-reading Robert
 Jordan's Wheel of Time in preparation for the new TV show.
 
