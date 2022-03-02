@@ -4,30 +4,51 @@ layout: default
 
 <section id="intro" markdown="1">
 
-I'm a Ph.D. student at the University of Washington
-[Paul G. Allen School of Computer Science & Engineering][allen].
-I work in the [PLSE][] group on lightweight software verification.
-My advisor is [Mike Ernst][mernst].
+I'm a future assistant professor at the New Jersey Institute of
+Technology, in the [Department of Computer Science](https://cs.njit.edu/),
+which I'll join at the beginning of the Fall 2022 semester. I am actively
+recruiting students to join me at NJIT: please contact me directly
+if you are interested.
 
-I am on the academic job market this cycle (2021-2022). I am
-primarily interested in a research tenure-track position at an institution
-within about a half-day's drive of Washington, DC.
-[CV][]
-[Research statement][rs]
-[Teaching statement][ts]
-[Diversity and Inclusion statement][deis]
+For now, I'm still a Ph.D. student at the University of Washington
+[Paul G. Allen School of Computer Science & Engineering][allen], where
+I'm finishing up my Ph.D. in the [PLSE][] group.
+My thesis advisor is [Michael Ernst][mernst].
 
-My work is focused on solving practical problems
-in software engineering using techniques from program analysis,
-including pluggable type systems and typestate analysis.
+My research focuses on making software verification practical
+for every developer: that is, on making verification a standard part
+of every developer's toolkit, in the way that techniques
+like unit testing or code review are today. My focus is primarily
+on two approaches to making verification more practical:
+1. improving the expressivity of simple verification technologies: making
+it possible to prove more facts about a program within the constraints
+that developers actually work under. Examples of this approach include
+my work on accumulation analysis for resource leaks ([ESEC/FSE 2021][rlc])
+and for initialization([ICSE 2020][occ]).
+2. convincing developers of the benefits of verification: by deploying
+verification technologies in new domains, and by improving the usability
+of verification. An example of this approach is my work on
+compliance verification ([ASE 2020][cc]).
+
+**I am actively recruiting students at all levels (undergraduate, masters,
+PhD)** to work with me beginning in Fall 2022. If the vision of making
+verification something that all programmers can use appeals to you, please
+contact me directly (email is best) or apply to NJIT and mention my name in
+your statement of purpose.
 
 Outside of work, I enjoy playing all kinds of games---video, tabletop,
 board, etc.---skiing, watching baseball and soccer,
 reading, and a little bit of tea snobbery.
 Some of my favorite games include Civilization, Dungeons and
 Dragons, and Dominion. I'm a big fan of the Washington Nationals
-and of the Seattle Sounders. Recently I've been re-reading Robert
-Jordan's Wheel of Time in preparation for the new TV show.
+and of the Seattle Sounders.
+
+I've made my academic job market materials publicly available:
+[CV][]
+[Research statement][rs]
+[Teaching statement][ts]
+[Diversity and Inclusion statement][deis]
+[Job Talk: "Verification for working developers"][jt]
 
 [allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
@@ -37,6 +58,10 @@ Jordan's Wheel of Time in preparation for the new TV show.
 [rs]: assets/research_statement.pdf
 [ts]: assets/teaching_statement.pdf
 [deis]: assets/dei_statement.pdf
+[jt]: assets/job_talk.pdf
+[rlc]: papers/esec-fse-2021-camera-ready-updated.pdf
+[occ]: papers/ICSE2020-camera-ready.pdf
+[cc]: papers/ase20-camera-ready.pdf
 
 </section>
 
