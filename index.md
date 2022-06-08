@@ -10,11 +10,6 @@ which I'll join at the beginning of the Fall 2022 semester. I am actively
 recruiting students to join me at NJIT: please contact me directly
 if you are interested.
 
-I completed my Ph.D. at the University of Washington
-[Paul G. Allen School of Computer Science & Engineering][allen].
-I worked in the [PLSE][] group under the supervision
-of [Michael Ernst][mernst].
-
 My research focuses on making software verification practical
 for every developer: that is, on making verification a standard part
 of every developer's toolkit, in the way that techniques
@@ -35,6 +30,11 @@ PhD)** to work with me beginning in Fall 2022. If the vision of making
 verification something that all programmers can use appeals to you, please
 contact me directly (email is best) or apply to NJIT and mention my name in
 your statement of purpose.
+
+I completed my Ph.D. at the University of Washington
+[Paul G. Allen School of Computer Science & Engineering][allen].
+I worked in the [PLSE][] group under the supervision
+of [Michael Ernst][mernst].
 
 Outside of work, I enjoy playing all kinds of games---video, tabletop,
 board, etc.---skiing, watching baseball and soccer,
