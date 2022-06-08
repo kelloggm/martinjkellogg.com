@@ -10,10 +10,10 @@ which I'll join at the beginning of the Fall 2022 semester. I am actively
 recruiting students to join me at NJIT: please contact me directly
 if you are interested.
 
-For now, I'm still a Ph.D. student at the University of Washington
-[Paul G. Allen School of Computer Science & Engineering][allen], where
-I'm finishing up my Ph.D. in the [PLSE][] group.
-My thesis advisor is [Michael Ernst][mernst].
+I completed my Ph.D. at the University of Washington
+[Paul G. Allen School of Computer Science & Engineering][allen] in June
+2022. I worked in the [PLSE][] group under the supervision
+of [Michael Ernst][mernst].
 
 My research focuses on making software verification practical
 for every developer: that is, on making verification a standard part
