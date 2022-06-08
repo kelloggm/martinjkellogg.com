@@ -11,8 +11,8 @@ recruiting students to join me at NJIT: please contact me directly
 if you are interested.
 
 I completed my Ph.D. at the University of Washington
-[Paul G. Allen School of Computer Science & Engineering][allen] in June
-2022. I worked in the [PLSE][] group under the supervision
+[Paul G. Allen School of Computer Science & Engineering][allen].
+I worked in the [PLSE][] group under the supervision
 of [Michael Ernst][mernst].
 
 My research focuses on making software verification practical
