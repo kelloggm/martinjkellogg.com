@@ -4,10 +4,12 @@ layout: default
 
 <section id="intro" markdown="1">
 
-I'm a future assistant professor at the New Jersey Institute of
-Technology, in the [Department of Computer Science](https://cs.njit.edu/),
-which I'll join at the beginning of the Fall 2022 semester. I am actively
+I'm an assistant professor at the New Jersey Institute of
+Technology, in the [Department of Computer Science](https://cs.njit.edu/).
+You can find me most days in my office: GITC 4314.
+I am actively
 recruiting students to join me at NJIT: please contact me directly
+via [first].[last]@njit.edu
 if you are interested.
 
 My research focuses on making software verification practical
@@ -26,7 +28,7 @@ of verification. An example of this approach is my work on
 compliance verification ([ASE 2020][cc]).
 
 **I am actively recruiting students at all levels (undergraduate, masters,
-PhD)** to work with me beginning in Fall 2022. If the vision of making
+PhD)** to work with me beginning immediately. If the vision of making
 verification something that all programmers can use appeals to you, please
 contact me directly (email is best) or apply to NJIT and mention my name in
 your statement of purpose.

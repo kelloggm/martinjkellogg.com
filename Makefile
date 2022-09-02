@@ -21,7 +21,7 @@ serve:
 clean:
 	$(RM) -r _site
 
-DEPLOY_PATH ?= bam.cs.washington.edu:/cse/web/homes/kelloggm/
+DEPLOY_PATH ?= mjk76@afsconnect1.njit.edu:/public_html
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete \
 	     --perms --owner --group --times -e ssh --chmod=g-w --chown=:web
 
