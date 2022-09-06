@@ -21,9 +21,9 @@ serve:
 clean:
 	$(RM) -r _site
 
-DEPLOY_PATH ?= mjk76@afsconnect1.njit.edu:/public_html
+DEPLOY_PATH ?= mjk76@afsconnect1.njit.edu:/afs/cad/u/m/j/mjk76/public_html/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete \
-	     --perms --owner --group --times -e ssh --chmod=g-w --chown=:web
+	     --perms --owner --group --times -e ssh
 
 deploy: clean build
 	$(RSYNC) _site/ $(DEPLOY_PATH)

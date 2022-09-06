@@ -9,7 +9,7 @@ Technology, in the [Department of Computer Science](https://cs.njit.edu/).
 You can find me most days in my office: GITC 4314.
 I am actively
 recruiting students to join me at NJIT: please contact me directly
-via [first].[last]@njit.edu
+via email
 if you are interested.
 
 My research focuses on making software verification practical
