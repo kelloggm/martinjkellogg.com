@@ -1,0 +1,13 @@
+Read Lambda Calculus and "Type Systems", sections 1-4. Then, answer the following questions:
+
+1. Give an example of a lambda term in which alpha-renaming before substitution is needed to avoid changing the meaning of the term.
+
+2. Use beta-reduction to simplify the following lambda term. Show each intermediate step that you take. The term: (λ f. f (λ x. x)) (λ x. x) -> [λ x. x / f] f (λ x. x). (Note that [x/y] means substitution of x for y in the following expression.)
+
+3. Give two examples of programming languages that do not appear in Table 1 of "Type Systems" (Links to an external site.) as well as which box you believe they belong in. Do not select two languages that would appear in the same box, had Luca Cardelli included them in Table 1.
+
+4. Is there a relationship between Cardelli's definition of a first-order type system and the definition of an abstract interpretation that we have been discussing in class for the last few sessions? Would it be possible to define one in terms of the other?
+
+5. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+6. How much time did you spend on this assignment (both the reading and answering the questions, combined)?

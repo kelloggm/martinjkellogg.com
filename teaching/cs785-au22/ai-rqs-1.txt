@@ -1,0 +1,7 @@
+Do exercises 4 and 5 from "Notes on Program Analysis". Also, answer the following questions:
+
+1. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+2. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
+
+
