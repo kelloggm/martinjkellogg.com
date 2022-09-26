@@ -1,0 +1,24 @@
+You should understand the difference between a value conversion "cast"
+like "(int) 3.0" that creates a new value, and a type conversion cast
+that only re-interprets existing bits.
+
+To understand the papers, you should know the term "currying":
+https://en.wikipedia.org/wiki/Currying.
+
+Answer the following questions:
+
+1. What is the distinction between
+  \cal{E}[[e]]E
+and
+  A |- e : \sigma
+?  Explain in 2-4 sentences.
+(Read "\cal{E}[[e]]E" as LaTeX code.  "\cal{E}" is the script letter E.
+"[[ ]]" are double square brackets that are smashed together, in
+"blackboard bold" style.)
+
+2. What does "type safety" mean?  Why do we care?  How far do those
+guarantees extend?
+
+3. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+4. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
