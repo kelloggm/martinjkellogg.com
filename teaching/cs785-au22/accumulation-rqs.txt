@@ -1,0 +1,19 @@
+Read "Accumulation Analysis" and then skim "Verifying Object Construction" to see how an
+accumulation analysis is useful in practice. Then, answer these reading questions:
+
+1. Consider Table III of the paper "Effective typestate verification in the
+presence of aliasing", which we read for last class. Name one example
+from the table of a typestate property that is an accumulation typestate
+property, and one example of a typestate property that is not.
+
+2. What is the purpose of the TS-LOAD-FIX rule? If the language of the
+proof had no fields (i.e., no loads or stores), would the problem solved
+by this rule come up?
+
+3. Give an example of alias reasoning that is done by the practical
+accumulation analysis discussed in "Verifying Object Construction". How is this alias
+reasoning different than running a whole-program alias analysis?
+
+4. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+5. How much time did you spend on this assignment (both the reading and answering the questions, combined)?

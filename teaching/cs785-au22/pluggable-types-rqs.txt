@@ -1,0 +1,23 @@
+Read "A Theory of Type Qualifiers" and "Practical Pluggable Types for Java", and then
+answer the following reading questions:
+
+1. Choose two rules from Figure 4b of "A Theory of Type Qualifiers". The set of rules you
+choose must not be {"Var", "Int"}. Give the name of each chosen rule and then explain the
+rule in English. Your explanation should make clear the difference between this rule and
+a rule for a similar language lacking type qualifiers.
+
+2. Consider rule "Unsound" on page 196 of "A Theory of Type Qualifiers". The authors claim
+that this rule is both "obvious" and "unsound". In a sentence each, explain why they claim
+these adjectives describe this rule.
+
+3. What is the primary research contribution of the paper "Practical Pluggable Types for Java"?
+
+4. It took multiple submissions for "Practical Pluggable Types for Java" to be published; it
+also won the "Test of Time" award at ISSTA 2018, ten years after publication. Why do you think
+the paper was both difficult to publish and was extremely influential over the following ten
+years? You might use your answer to question 3 as part of your answer.
+
+5. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+6. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
+
