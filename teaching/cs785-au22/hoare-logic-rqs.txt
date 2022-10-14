@@ -1,0 +1,62 @@
+Read Jonathan Aldrich's Notes on Hoare Logic and Classical Program Logics: Hoare Logic,
+Weakest Liberal Preconditions. Then, answer the following questions and submit on Canvas:
+
+1. Fill in the strongest postcondition in each blank below, reasoning forward from
+the first:
+{{ }}
+if (x < 4)
+ {{ ________________________________________________________________ }}
+ x = 3 * x;
+ {{ ________________________________________________________________ }}
+else
+ {{ ________________________________________________________________ }}
+ x = x + 8;
+ {{ ________________________________________________________________ }}
+{{ ________________________________________________________________ }}
+
+2. Fill in the strongest postcondition in each blank below, reasoning forward from
+the first:
+{{ 0 <= x < 100 }}
+y = x + 1;
+{{ ________________________________________________________________ }}
+z = y – 4;
+{{ ________________________________________________________________ }}
+x = y – z;
+{{ ________________________________________________________________ }}
+
+3. Fill in the blanks below using valid Hoare triples to prove the postcondition
+given immediately before the return statement. As a hint, there are multiple blanks
+in locations where you might want to apply the frame or consequence rules (but
+multiple solutions are possible, so you might want to fill in two adjacent blanks
+with the same formula).
+
+{{ Pre: }} (i.e., nothing is assumed other than A is not null, which is an implicit constraint)
+int find(int[] A, int val) {
+ {{ ________________________________________________________________ }}
+ int i = -1;
+ {{ ________________________________________________________________ }}
+
+ {{ Loop invariant: }}
+ while (i+1 != A.length) {
+   {{ ________________________________________________________________ }}
+   if (A[i+1] == val) {
+      {{ ________________________________________________________________ }}
+      {{ Post: A[i+1] = val }}
+      return i+1;
+   } else {
+     {{ ________________________________________________________________ }}
+­    i = i + 1;
+     {{ ________________________________________________________________ }}
+   }
+   {{ ________________________________________________________________ }}
+ }
+ {{ ________________________________________________________________ }}
+ {{ Post: A[0] != val, A[1] != val, …, A[A.length-1] != val }}
+  return -1;
+}
+
+4. What is the difference between total and partial correctness?
+
+5. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+6. How much time did you spend on this assignment (both the reading and answering the questions, combined)?

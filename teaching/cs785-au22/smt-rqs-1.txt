@@ -1,0 +1,12 @@
+Skim Chapter 1 of "Calculus of Computation", sections 1 to 1.6 (pages
+14-33 in the PDF) to make sure you understand the basics of
+propositional logic. Then read the remainder of chapter 1 (section
+1.7, pages 33-43) in detail. Then, answer these questions:
+
+1. Do exercise 1.8, part a.
+
+2. Do exercise 1.8, part b.
+
+3. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+4. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
