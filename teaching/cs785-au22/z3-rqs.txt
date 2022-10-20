@@ -1,0 +1,14 @@
+Read Programming Z3 and then answer the following questions:
+
+1. What is the motivation for including different theories in Z3? Why isn't just SAT enough?
+
+2. Max discussed his egg tool in his guest lecture on Tuesday. Which theories (if any) described
+in section 3 of "Programming Z3" might be solvable by reducing them to e-graphs and using
+egg to solve them? In a sentence for each theory in section 3, why or why not?
+
+3. In at most two sentences, why is it sound for Z3 to combine multiple theories? (Hint:
+your answer might involve the phrase "Nelson-Oppen".)
+
+4. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+5. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
