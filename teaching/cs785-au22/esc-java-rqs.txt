@@ -1,0 +1,35 @@
+Read "Extended Static Checking for Java" and then answer the following questions
+on Canvas:
+
+1. Complete the DPLL(T) example we began in class on Thursday. If it is satisfiable,
+provide a satisfying assignment. If it is unsatisfiable, provide an unsatisfiable core.
+
+Recall that the initial formula was the following (&& is "and"/wedge, || is "or"/vee):
+
+(f(a)!=f(b) || d!=e) &&
+(a=b || a!=c) &&
+(a=b || c=b) &&
+(a=c || P) &&
+(c!=b || !P)
+
+We'd chosen the following theory variables:
+T1 = f(a)=f(b)
+T2 = d=e
+T3 = a=b
+T4 = a=c
+T5 = c=b
+
+2. ESC/Java is unsound, despite being built on a sound theoretical foundataion (i.e., Hoare
+Logic and VC generation, as we discussed in class).
+Give one example of a way it is unsound, and briefly state
+why the authors chose to make the tool unsound in that way.
+
+3. A ghost field is no longer necessary for specifying the type contained in a Vector
+in Java (because of generics, which were introduced after this paper was published).
+Give a example of a situation where a ghost field might be useful that is applicable
+to modern Java.
+
+4. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+5. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
+
