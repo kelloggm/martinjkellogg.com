@@ -1,0 +1,18 @@
+Skim "Precise Interprocedural Dataflow Analysis via Graph Reachability,
+focusing on understanding the idea of the core algorithm rather than the
+specific details provided in the paper.
+Then, read "Inter-procedural data-flow analysis with IFDS/IDE and Soot;
+you should understand IFDS well-enough to make sense of section 2.
+Then, answer the following questions:
+
+1. The "D" in IFDS stands for "distributive". What does it mean for flow functions to
+be distributive?
+
+2. What does the "0" node mean in an exploded super-graph?
+
+3. What is the difference between IFDS and IDE?
+
+4. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+5. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
+
