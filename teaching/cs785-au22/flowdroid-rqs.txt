@@ -1,0 +1,17 @@
+Read "FlowDroid: Precise Context, Flow, Object-sensitive and Lifecylce-aware Taint
+Analysis for Android Apps", and then answer the following questions:
+
+1. The FlowDroid paper refers to a "dummy" main() method. Why is the main() method
+a "dummy", and why is it necessary? (There are two answers to the second part of
+this question: one related to Android and one related to IFDS. You should give both.)
+
+2. What is interesting about FlowDroid's handling of possible aliasing?
+
+3. What is the scientific purpose of the proposed DroidBench? (Hint: the authors specifically
+complain about a deficiency of the scientific literature in the paper that DroidBench
+might help solve.)
+
+4. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+5. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
+
