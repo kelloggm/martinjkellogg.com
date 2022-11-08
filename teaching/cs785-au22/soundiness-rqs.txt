@@ -1,0 +1,25 @@
+Read "In Defense of Soundiness: A Manifesto" and
+"An Experimental Evaluation of Deliberate Unsoundness in a Static Program Analyzer",
+and then answer the following questions:
+
+1. Describe one aspect of your design for a divide-by-zero abstract
+interpretation from earlier this semester that is "sound-y": that is,
+describe an aspect of the design that is unsound in rare cases but is
+usually correct. Why did you make this design decision?
+
+2. What is the difference between a sound-y tool (such as your divide-by-zero
+abstract interpretation) and a tool that is intentionally unsound (such as
+a heuristic bug-finder like FindBugs or ErrorProne)?
+
+3. Section 2 ("Unsoundness in Clousot") of "An Experimental Evaluation
+of Deliberate Unsoundness in a Static Program Analyzer" claims to
+present a "complete list of Clousot's sources of deliberate
+unsoundness."  Choose some other tool we have discussed in this class
+so far. How would you go about producing a similar list for the tool
+you chose? Would there be a lot of overlap with the list for Clousot?
+Why or why not?
+
+4. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+5. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
+
