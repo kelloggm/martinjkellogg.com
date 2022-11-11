@@ -1,0 +1,17 @@
+Read "Contextual Effects for Version-Consistent Dynamic Software
+Updating and Safe Concurrent Programming" and then answer the
+following questions on Canvas:
+
+1. Explain what is meant by "the usual covariance and contravariance where
+appropriate" with respect to figure 2. What specific rules are being referred
+to, and do those rules involve covariance, contravariance, or both?
+
+2. Why is it important for Lemma 2.3 to be true? If the authors didn't prove
+Lemma 2.3, what might be wrong with their system?
+
+3. What is the relationship between the type-and-effect systems described
+in this paper and typestate, if any? Could you express one in terms of the other?
+
+4. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+5. How much time did you spend on this assignment (both the reading and answering the questions, combined)?

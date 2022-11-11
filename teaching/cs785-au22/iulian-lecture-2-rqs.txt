@@ -1,0 +1,18 @@
+Read "Automatically Verifying and Reproducing Event-Based Races in Android Apps"
+and "Static Detection of Event-based Races in Android Apps" and then answer
+the following questions on Canvas:
+
+1. Define a "happens-before" relationship. Briefly contrast how the two papers
+use happens-before relationships.
+
+2. One of these papers describes a static analysis for detecting races;
+the other describes a dynamic analysis. In two sentences, give two reasons
+that the static analysis might be better, backed by evidence from the paper.
+
+2. One of these papers describes a static analysis for detecting races;
+the other describes a dynamic analysis. In two sentences, give two reasons
+that the dynamic analysis might be better, backed by evidence from the paper.
+
+4. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+5. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
