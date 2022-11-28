@@ -1,0 +1,27 @@
+Read "NullAway: Practical Type-Based Null Safety for Java" and
+"Rapid: Checking API Usage for the Cloud in the Cloud", and then
+answer the following reading questions:
+
+1. NullAway aims for no false negatives in practice. How does this goal
+differ from the standard formulation of soundness that we've used when discussing
+other kinds of tools (such as abstract interpretations)? Does one of these
+definitions imply the other?
+
+2. Explain what a "pure" method is? Why does NullAway assume that all methods
+are pure? If there is an impure method, what impact might that have on NullAway's
+results?
+
+3. What choice made by the NullAway authors
+causes the 64% of NPEs in section 8.3 of the NullAway paper to not be caught by
+NullAway? Could they have designed the tool differently and caught these errors?
+If so, how? If not, why not?
+
+4. What is a "malpractice" state in the Rapid paper? Does the notion of a malpractice
+state relate to any of the design decisions taken by the NullAway authors?
+
+5. Is specification fingerprinting sound? Why or why not?
+
+6. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+7. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
+
