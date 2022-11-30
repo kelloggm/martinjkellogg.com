@@ -1,0 +1,39 @@
+Read "Incorrectness Logic" and then answer the following questions.
+
+1. Consider three hypothetical tools: a heuristic bug-finder "HBF",
+a verification tool based on Hoare Logic "HLV", and a bug-finder based
+on incorrectness logic "ILBF" (as described in this paper). Contrast the
+guarantees of HBF, HLV, and ILBF with respect to the presence or absence of
+both false positives (false alarms) and false negatives (bugs not discovered by
+the analysis).
+
+2. Consider the following program in a Java-like language, which uses the same "presumes"/"achieves"
+syntax as the paper:
+
+/* presumes: { true } */
+        char[] letters = {'a', 'e', 'i', 'o', 'u'};
+        int result = 0;
+
+        for (int i = 0; i < word.length(); i++) {
+            for (int j = 0; j < letters.length; j++) {
+                if (word.charAt(i) == letters[j]) {
+                    result++;
+                }
+            }
+        }
+/* achieves: { ok: result > 0 } */
+
+Would incorrectness logic permit us to prove this result? Why or why not?
+
+3. Could you use incorrectness logic to straightforwardly model the unsoundnesses
+in Rapid and NullAway that we discussed in the last class? Why or why not?
+
+4. What do the authors mean when they say "By treating assertions semantically we are essentially appealing
+to mathematics (or set theory) as an oracle in our proof theory when we use ⇒ in proof rules."?
+Is this statement related to anything we discussed when we talked about Hoare Logic
+and verification conditions? If so, what? (Hint: think about the "leaves" of the proof trees
+we wrote when we were reasoning about verification conditions.)
+
+5. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+6. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
