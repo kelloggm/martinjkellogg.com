@@ -6,7 +6,8 @@ layout: default
 
 I'm an assistant professor at the New Jersey Institute of
 Technology, in the [Department of Computer Science](https://cs.njit.edu/).
-You can find me most days in my office: GITC 4314.
+You can find me most days in my office: GITC 4314; feel free to come by any
+time that my [calendar][calendar] says that I'm free.
 I am actively
 recruiting students to join me at NJIT: please contact me directly
 via email
@@ -64,6 +65,7 @@ I've made my academic job market materials publicly available:
 [rlc]: papers/esec-fse-2021-camera-ready-updated.pdf
 [occ]: papers/ICSE2020-camera-ready.pdf
 [cc]: papers/ase20-camera-ready.pdf
+[calendar]: https://calendar.google.com/calendar/u/0?cid=bWprNzZAbmppdC5lZHU
 
 </section>
 
