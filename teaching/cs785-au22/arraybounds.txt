@@ -10,7 +10,7 @@ Index Checker. What is similar about the two, and what is different?
 
 3. Consider the code in Figure 5 of the Clousot paper. Is there a set of Index Checker annotations
 that would enable the Index Checker to prove that code correct? If so, what is it? If not, what
-property is necessary to prove the code correct can the Index Checker not express?
+property is necessary to prove the code correct that the Index Checker cannot express?
 
 4. Name one important design difference between the Index Checker and Clousot. What are the consequences
 of that design decision (in terms of precision, recall, speed, or other properties of the analysis)?
