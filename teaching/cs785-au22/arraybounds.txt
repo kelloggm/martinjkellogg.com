@@ -1,0 +1,24 @@
+Read "Clousot: Static Contract Checking with Abstract Interpretation" (focusing on their handling of
+arrays, which is what we'll discuss in class) and "Lightweight Verification of Array Indexing".
+Then, answer the following questions:
+
+1. Explain the "pentagons" abstract domain in one sentence. Then, name one fact that it can express,
+and one fact that it cannot.
+
+2. Compare and contrast the way that Clousot combines domains and the multiple checkers of the
+Index Checker. What is similar about the two, and what is different?
+
+3. Consider the code in Figure 5 of the Clousot paper. Is there a set of Index Checker annotations
+that would enable the Index Checker to prove that code correct? If so, what is it? If not, what
+property is necessary to prove the code correct can the Index Checker not express?
+
+4. Name one important design difference between the Index Checker and Clousot. What are the consequences
+of that design decision (in terms of precision, recall, speed, or other properties of the analysis)?
+
+5. Name one important design similarity between the Index Checker and Clousot. Why did both sets of
+authors choose to structure their analysis that way (or, what might have gone wrong had they not
+done what they did)?
+
+6. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+7. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
