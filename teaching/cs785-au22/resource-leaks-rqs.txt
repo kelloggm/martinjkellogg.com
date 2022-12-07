@@ -1,0 +1,27 @@
+Read "Grapple: A Graph System for Static Finite-State Property Checking of Large-Scale Systems Code" (focusing on how they
+handle resource leaks) and "Lightweight and Modular Resource Leak Verification", and then answer the following
+questions:
+
+1. Is Grapple sound? If so, how do you know? If not, what is one source of unsoundness?
+
+2. The Resource Leak Checker claims to include three kinds of local alias reasoning to improve
+precision. Do all three actually improve precision? If you had to remove one of these, which would
+it be (and why)?
+
+3. Read section 7.2.2 of "Lightweight and Modular Resource Leak Verification" carefully. What are
+the authors really saying about Grapple here (this question is not asking what they are literally
+saying - I am asking about the subtext: what do they mean)? Does this paragraph have any implications for the validity
+of the claims in the Grapple paper?
+
+4. Suppose you are a software engineer at a cloud services company. You want to remove resource leaks
+from your long-running cloud service. Describe scenarios under which:
+  a. the Eclipse analysis (mentioned in section 7 of "Lightweight and Modular Resource Leak Verification")
+  is the best choice for you.
+  b. the Resource Leak Checker is the best choice for you.
+  c. Grapple is the best choice for you.
+Make sure the three scenarios are different, and focus on the properties of the analysis that are
+important in each scenario.
+
+5. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+6. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
