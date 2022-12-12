@@ -1,0 +1,27 @@
+Read "CRYSL: An Extensible Approach to Validating the Correct Usage of Cryptographic APIs"
+and "Continuous Compliance" (focusing on their handling of correct use of cryptography,
+especially the comparison experiment in section 7). Then, answer the following
+questions:
+
+1. In the comparison experiment in section 7 of "Continuous Compliance",
+CogniCrypt SAST/CrySL suffer from false negatives (i.e., unsoundness).
+Did the CrySL authors intend for their tool to be unsound? If so, identify
+a source of unsoundness described in the CrySL paper. If not, why do
+you think the comparison experiment showed their tool to be unsound?
+
+2. How does the CrySL input language differ from the input language of
+a traditional typestate verifier (i.e., from a finite-state automaton)?
+Why do you think the CrySL authors chose this alternative representation?
+
+3. In the CrySL paper's abstract, the authors claim "95 percent of apps and
+63 percent of Maven artefacts containing at least one misuse [of cryptography]."
+Identify the experiment in their paper that backs up this claim. Are there any
+threats to its validity, or any assumptions made by the authors that might not
+actually be true?
+
+4. Is there anything unfair to one or more of the tools in the comparison experiment
+in section 7 of "Continuous Compliance"?
+
+5. What was the most confusing part of the reading? Is there anything you still don't understand?
+
+6. How much time did you spend on this assignment (both the reading and answering the questions, combined)?
