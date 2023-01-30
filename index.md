@@ -98,6 +98,7 @@ I've made my academic job market materials publicly available:
 
 <section id="teaching">
   <h2> Teaching </h2>
-    Fall 2022: <a href="teaching/cs785-au22/index.html">CS 785: Practical Program Analysis</a>
+  Spring 2023: <a href="teaching/cs490-sp23/">CS 490: Guided Design in Software Engineering</a><br>
+  Fall 2022: <a href="teaching/cs785-au22/index.html">CS 785: Practical Program Analysis</a><br>
 
 </section>
