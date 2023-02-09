@@ -102,3 +102,15 @@ I've made my academic job market materials publicly available:
   Fall 2022: <a href="teaching/cs785-au22/index.html">CS 785: Practical Program Analysis</a><br>
 
 </section>
+
+<section id="service">
+  <h2> Professional Service </h2>
+  Student Research Competition judge, ESEC/FSE 2023 <br>
+  Co-chair for Student Volunteers, ISSTA 2023 <br>
+  Program committee member, ISSTA 2023 <br>
+  Student Research Competition judge, PLDI 2023 <br>
+  External review committee member, OOPSLA 2022-23 <br>
+  Artifact evaluation committee member, PLDI 2020 <br>
+  Program committee member, testing tools track, ICST 2020 <br>
+  Artifact evaluation committee member, VMCAI 2020 <br>
+</section>
