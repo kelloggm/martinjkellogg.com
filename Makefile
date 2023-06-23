@@ -32,5 +32,5 @@ DEPLOY_PATH ?= mjk76@afsconnect1.njit.edu:/afs/cad/u/m/j/mjk76/public_html/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete \
 	     --perms --owner --group --times -e ssh
 
-deploy: clean build #cs490-sp23
+deploy: clean build cs490-sp23
 	$(RSYNC) _site/ $(DEPLOY_PATH)
