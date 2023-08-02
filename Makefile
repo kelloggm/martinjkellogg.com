@@ -23,14 +23,14 @@ clean:
 
 # TODO: make this more sophisticated so that it can handle more than one semester
 # TODO: make this automatically build
-MV490SP23=cp -r ../cs-490-website/_site _site/teaching/cs490-sp23
+MV490=cp -r ../cs-490-website/_site _site/teaching/cs490-sp24
 
-cs490-sp23:
-	$(MV490SP23)
+cs490:
+	$(MV490)
 
 DEPLOY_PATH ?= mjk76@afsconnect1.njit.edu:/afs/cad/u/m/j/mjk76/public_html/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete \
 	     --perms --owner --group --times -e ssh
 
-deploy: clean build cs490-sp23
+deploy: clean build
 	$(RSYNC) _site/ $(DEPLOY_PATH)
