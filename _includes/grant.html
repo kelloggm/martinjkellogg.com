@@ -27,18 +27,9 @@
     </ul>
 </dd>
 
-{% if grant.dollars %}
+{% if grant.award %}
     <dd class="grant-dollars">
-        {{ $ grant.dollars | markdownify }}
-    </dd>
-{% endif %}
-
-{% if grant.funder %}
-    <dd class="grant-funder">
-        {%- include link.html
-            url=grant.funder_url
-            text=grant.funder -%},
-        {{ paper.date | date: '%B %Y' }}
+      {{ grant.award }}, {{ grant.date | date: '%B %Y' }}
     </dd>
 {% endif %}
 

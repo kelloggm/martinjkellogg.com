@@ -118,7 +118,7 @@ I've made my academic job market materials publicly available:
 <section id="funding">
   <h2> Funding </h2>
   <dl>
-    {% assign grants-newest-first = site.grant | reverse %}
+    {% assign grants-newest-first = site.grants | reverse %}
     {% for grant in grants-newest-first %}
       {% include grant.html grant=grant %}
     {% endfor %}

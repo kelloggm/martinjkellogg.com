@@ -6,6 +6,8 @@ url: "https://web.njit.edu"
 collections:
   bib:
     output: true
+  grants:
+    output: true
 
 # show things with future dates
 future: true
