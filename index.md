@@ -103,6 +103,12 @@ I've made my academic job market materials publicly available:
 
 </section>
 
+<section id="students">
+  <h2> PhD Students </h2>
+  Kazi Amanul Islam Siddiqui, 2023-present <br>
+  <a href="https://web.njit.edu/~ea442/">Erfan Arvan</a>, 2023-present <br>
+</section>
+
 <section id="service">
   <h2> Professional Service </h2>
   Student Research Competition judge, ESEC/FSE 2023 <br>
