@@ -1,0 +1,47 @@
+<dt class="grant-title">
+    {% include link.html
+        url=grant.link
+        text=grant.title
+    %}
+</dt>
+
+<dd class="grant-authors">
+    <ul class="comma-list">
+        {% for a_key in grant.authors %}
+            {% assign a = site.data.people[a_key] %}
+
+            {%- if a_key == "kelloggm" -%}
+                {% assign class = "author me" %}
+            {%- else -%}
+                {% assign class = "author" %}
+            {%- endif -%}
+
+            <li>
+                {%- include link.html
+                url=a.webpage
+                text=a.name
+                class=class
+                -%}
+            </li>
+        {% endfor %}
+    </ul>
+</dd>
+
+{% if grant.dollars %}
+    <dd class="grant-dollars">
+        {{ $ grant.dollars | markdownify }}
+    </dd>
+{% endif %}
+
+{% if grant.funder %}
+    <dd class="grant-funder">
+        {%- include link.html
+            url=grant.funder_url
+            text=grant.funder -%},
+        {{ paper.date | date: '%B %Y' }}
+    </dd>
+{% endif %}
+
+{% if grant.extra %}
+    <dd> {{ grant.extra | markdownify | remove: "<p>" | remove: "</p>"}} </dd>
+{% endif %}

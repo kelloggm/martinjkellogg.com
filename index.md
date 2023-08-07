@@ -114,3 +114,13 @@ I've made my academic job market materials publicly available:
   Program committee member, testing tools track, ICST 2020 <br>
   Artifact evaluation committee member, VMCAI 2020 <br>
 </section>
+
+<section id="funding">
+  <h2> Funding </h2>
+  <dl>
+    {% assign grants-newest-first = site.grant | reverse %}
+    {% for grant in grants-newest-first %}
+      {% include grant.html grant=grant %}
+    {% endfor %}
+  </dl>
+</section>
