@@ -22,7 +22,7 @@ on two approaches to making verification more practical:
 it possible to prove more facts about a program within the constraints
 that developers actually work under. Examples of this approach include
 my work on accumulation analysis for resource leaks ([ESEC/FSE 2021][rlc])
-and for initialization([ICSE 2020][occ]).
+and for initialization ([ICSE 2020][occ]).
 2. convincing developers of the benefits of verification: by deploying
 verification technologies in new domains, and by improving the usability
 of verification. An example of this approach is my work on
