@@ -73,7 +73,7 @@ I've made my academic job market materials publicly available:
 
 <section id="news">
   <h2> News </h2>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
   <div class="news-item">
     {% capture post_year %} {{ post.date | date: "%Y" }} {% endcapture %}
     {% if post_year == this_year %}
