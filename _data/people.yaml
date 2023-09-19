@@ -54,3 +54,19 @@ ma234:
 
 dd482:
   name: "Daniel Daskiewicz"
+
+pritam:
+  name: "Pritam Gharat"
+  webpage: "https://pritammg.github.io/"
+
+shreytiwari:
+  name: "Shrey Tiwari"
+  webpage: "https://www.shreytiwari.com/"
+
+shuvendu:
+  name: "Shuvendu Lahiri"
+  webpage: "https://www.microsoft.com/en-us/research/people/shuvendu/"
+
+akashl:
+  name: "Akash Lal"
+  webpage: "https://www.microsoft.com/en-us/research/people/akashl/"
