@@ -112,14 +112,15 @@ I've made my academic job market materials publicly available:
 
 <section id="service">
   <h2> Professional Service </h2>
+  Sponsorship Chair, SPLASH 2024 <br>
+  Program Committee member, ISSTA 2023-24 <br>
   Student Research Competition judge, ESEC/FSE 2023 <br>
   Co-chair for Student Volunteers, ISSTA 2023 <br>
-  Program committee member, ISSTA 2023 <br>
   Student Research Competition judge, PLDI 2023 <br>
-  External review committee member, OOPSLA 2022-23 <br>
-  Artifact evaluation committee member, PLDI 2020 <br>
-  Program committee member, testing tools track, ICST 2020 <br>
-  Artifact evaluation committee member, VMCAI 2020 <br>
+  External Review Committee member, OOPSLA 2022-23 <br>
+  Artifact Evaluation Committee member, PLDI 2020 <br>
+  Program Committee member, testing tools track, ICST 2020 <br>
+  Artifact Evaluation Committee member, VMCAI 2020 <br>
 </section>
 
 <section id="funding">
