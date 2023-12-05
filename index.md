@@ -8,10 +8,6 @@ I'm an assistant professor at the New Jersey Institute of
 Technology, in the [Department of Computer Science](https://cs.njit.edu/).
 You can find me most days in my office: GITC 4314; feel free to come by any
 time that my [calendar][calendar] says that I'm free.
-I am actively
-recruiting students to join me at NJIT: please contact me directly
-via email
-if you are interested.
 
 My research focuses on making software verification practical
 for every developer: that is, on making verification a standard part
@@ -27,12 +23,6 @@ and for initialization ([ICSE 2020][occ]).
 verification technologies in new domains, and by improving the usability
 of verification. An example of this approach is my work on
 compliance verification ([ASE 2020][cc]).
-
-**I am actively recruiting students at all levels (undergraduate, masters,
-PhD)** to work with me beginning immediately. If the vision of making
-verification something that all programmers can use appeals to you, please
-contact me directly (email is best) or apply to NJIT and mention my name in
-your statement of purpose.
 
 I completed my Ph.D. at the University of Washington
 [Paul G. Allen School of Computer Science & Engineering][allen].
