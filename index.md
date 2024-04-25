@@ -96,13 +96,20 @@ I've made my academic job market materials publicly available:
 </section>
 
 <section id="students">
-  <h2> PhD Students </h2>
-  Kazi Amanul Islam Siddiqui, 2023-present <br>
-  <a href="https://web.njit.edu/~ea442/">Erfan Arvan</a>, 2023-present <br>
+
+  This section lists all of the past and present PhD students that I've supervised, and past undergraduate
+  and masters students who have stayed in academia after working with me.
+
+  <h2> Students </h2>
+  <a href="https://web.njit.edu/~ks225/">Kazi Amanul Islam Siddiqui</a>, PhD student, 2023-present <br>
+  <a href="https://web.njit.edu/~ea442/">Erfan Arvan</a>, PhD student, 2023-present <br>
+  <h2> Alumni </h2>
+  Loi Ngo Duc Nguyen, undergraduate student, 2022-2024 (starting a PhD at UC Riverside in Fall 2024)<br>
 </section>
 
 <section id="service">
   <h2> Professional Service </h2>
+  Program Committee member, FSE 2024 <br>
   Sponsorship Chair, SPLASH 2024 <br>
   Program Committee member, ISSTA 2023-24 <br>
   Student Research Competition judge, ESEC/FSE 2023 <br>
