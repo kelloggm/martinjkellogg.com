@@ -97,14 +97,15 @@ I've made my academic job market materials publicly available:
 
 <section id="students">
 
-  This section lists all of the past and present PhD students that I've supervised, and past undergraduate
-  and masters students who have stayed in academia after working with me.
+  <h2> Students and Alumni </h2>
 
-  <h2> Students </h2>
+  This section lists all of the past and present PhD students that I've supervised, and a selection of past undergraduate
+  and masters students who have stayed in academia after working with me. If you're a past undergraduate or masters student
+  and you think you should be on this list, send me an email.<br><br>
+
   <a href="https://web.njit.edu/~ks225/">Kazi Amanul Islam Siddiqui</a>, PhD student, 2023-present <br>
   <a href="https://web.njit.edu/~ea442/">Erfan Arvan</a>, PhD student, 2023-present <br>
-  <h2> Alumni </h2>
-  Loi Ngo Duc Nguyen, undergraduate student, 2022-2024 (starting a PhD at UC Riverside in Fall 2024)<br>
+  <a href="https://sites.google.com/ucr.edu/loinguyen">Loi Nguyen</a>, undergraduate student, 2022-2024 (starting a PhD at UC Riverside in Fall 2024)<br>
 </section>
 
 <section id="service">
