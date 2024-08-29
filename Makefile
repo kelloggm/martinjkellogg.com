@@ -23,7 +23,7 @@ clean:
 
 # TODO: make this more sophisticated so that it can handle more than one semester
 # TODO: make this automatically build
-MV490=cp -r ../cs-490-website/_site _site/teaching/cs684-sp24
+MV490=cp -r ../cs-490-website/_site _site/teaching/cs490-au24
 
 cs490:
 	$(MV490)
