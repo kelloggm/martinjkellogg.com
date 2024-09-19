@@ -28,7 +28,7 @@ MV490=cp -r ../cs-490-website/_site _site/teaching/cs490-au24
 cs490:
 	$(MV490)
 
-DEPLOY_PATH ?= mjk76@afsconnect2.njit.edu:/afs/cad/u/m/j/mjk76/public_html/
+DEPLOY_PATH ?= mjk76@afsaccess1.njit.edu:/afs/cad/u/m/j/mjk76/public_html/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete \
 	     --perms --owner --group --times -e ssh
 

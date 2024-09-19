@@ -88,6 +88,7 @@ I've made my academic job market materials publicly available:
 
 <section id="teaching">
   <h2> Teaching </h2>
+  Fall 2024: <a href="teaching/cs490-au24/">CS 490: Guided Design in Software Engineering</a><br>
   Spring 2024: <a href="teaching/cs684-sp24/">CS 684: Testing and Quality Assurance</a><br>
   Fall 2023: <a href="teaching/cs490-au23/">CS 490: Guided Design in Software Engineering</a><br>
   Spring 2023: <a href="teaching/cs490-sp23/">CS 490: Guided Design in Software Engineering</a><br>
@@ -110,7 +111,7 @@ I've made my academic job market materials publicly available:
 
 <section id="service">
   <h2> Professional Service </h2>
-  Program Committee member, FSE 2024 <br>
+  Program Committee member, FSE 2025 <br>
   Sponsorship Chair, SPLASH 2024 <br>
   Program Committee member, ISSTA 2023-24 <br>
   Student Research Competition judge, ESEC/FSE 2023 <br>
