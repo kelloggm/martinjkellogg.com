@@ -1,7 +1,7 @@
 title: Martin Kellogg
 
-baseurl: "/~mjk76/"
-url: "https://web.njit.edu"
+baseurl: "/martinjkellogg.com/"
+url: "https://kelloggm.github.io/"
 
 collections:
   bib:
