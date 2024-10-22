@@ -1,322 +1,328 @@
 {"0": {
-    "doc": "Welcome to CS 485: Compilers",
+    "doc": "CS 485 Compilers (Sp25)",
     "title": "Welcome to CS 485: Compilers",
     "content": "Note: this website is an early draft and everything on it is subject to change. Welcome to CS 485: Compilers! This course teaches students how to build an optimizing compiler for a Java-like object-oriented programming language. Topics include program semantics, typechecking, intermediate representations like single static assignment (SSA) form, code generation, and classic compiler optimizations including register allocation via graph coloring, peephole optimizations, and dataflow analyses. Students will also be introduced to functional programming, and its advantages for transformation-based programs like compilers that have strict correctness requirements. On this course website, you can find: . | the syllabus, | a course calendar (which includes links to the required readings), | a staff page, | links to all assignment descriptions, | useful tutorials, and | information about exams (including old/practice exams with solutions). | . ",
-    "url": "/martinjkellogg.com/teaching/cs485-sp25/README/",
-    "relUrl": "/README/"
+    "url": "/martinjkellogg.com/teaching/cs485-sp25/#welcome-to-cs-485-compilers",
+    "relUrl": "/#welcome-to-cs-485-compilers"
   },"1": {
+    "doc": "CS 485 Compilers (Sp25)",
+    "title": "CS 485 Compilers (Sp25)",
+    "content": " ",
+    "url": "/martinjkellogg.com/teaching/cs485-sp25/",
+    "relUrl": "/"
+  },"2": {
     "doc": "Syllabus",
     "title": "Syllabus",
     "content": "Note: this syllabus is a draft and is subject to change. Welcome to CS 485: Compilers! This course teaches students how to build an optimizing compiler for a Java-like object-oriented programming language. Topics include program semantics, typechecking, intermediate representations like single static assignment (SSA) form, code generation, and classic compiler optimizations including register allocation via graph coloring, peephole optimizations, and dataflow analyses. Students will also be introduced to functional programming, and its advantages for transformation-based programs like compilers that have strict correctness requirements. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/",
     "relUrl": "/about/"
-  },"2": {
+  },"3": {
     "doc": "Syllabus",
     "title": "Prerequisites",
     "content": "As a special topics course, this class officially has no prerequisites, and you’re signing up for it at your own risk. If this course were to be offered as a regular course, the prerequisite would be CS 280 with a grade of C or better, or the equivalent at another institution. Taking CS350 in the same semester as this course, or prior to it, is recommended but not required, provided students have some prior knowledge of assembly. Students will also benefit from taking CS 341 concurrently or before this course, because there are some relevant theory topics to optimization. Finally, this course includes a non-trivial programming project. Students who have taken a software engineering course (e.g., CS 490 with me) or otherwise have software engineering experience will probably have an easier time. The first homework assignment is due right at the drop date, and is intended to let you check that you have the basic skills that will be needed for this course. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#prerequisites",
     "relUrl": "/about/#prerequisites"
-  },"3": {
+  },"4": {
     "doc": "Syllabus",
     "title": "Topics",
     "content": ". | Functional programming | Scoping | Typechecking | Operational Semantics | Abstract Interpretation | Intermediate Representations | Code Generation | Multi-language Projects | Dead Code Elimination and Other Dataflow Analyses | Local Optimizations | Peephole Optimizations | Global Optimizations | Register Allocation | Automatic Memory Management | Exceptions | Debuggers | Linking, Loading, and Shared Libraries | . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#topics",
     "relUrl": "/about/#topics"
-  },"4": {
+  },"5": {
     "doc": "Syllabus",
     "title": "Grading and Assignments",
     "content": "Your grade is composed of the following sub-scores (in no particular order): . | 60%: Programming Projects (5% for PA1 (Rosetta Stone), 17.5% for PA2 (COOL Typechecker), 17.5% for PA3 (COOL Code Generator), 20% for PA4 (COOL Optimizing Compiler)) | 25%: Exams (10% for the mid-term, 15% for the final) | 15%: Participation &amp; Professionalism | . This class will be curved: when grading, I prefer to use the whole range available rather than scores in a tight range. That is, if an assignment is worth 10 points, I will give grades at all the points between 0 and 10. I will project your raw scores onto the final distribution twice during the semester: . | after the mid-term exam | shortly before the final exam | . You will be notified of your current projected class grade via email at each of these points. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#grading-and-assignments",
     "relUrl": "/about/#grading-and-assignments"
-  },"5": {
+  },"6": {
     "doc": "Syllabus",
     "title": "Textbook",
     "content": "This course uses Engineering A Compiler, 2nd edition as the primary textbook. NJIT’s library has copies available online. This textbook will be supplemented by other readings. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#textbook",
     "relUrl": "/about/#textbook"
-  },"6": {
+  },"7": {
     "doc": "Syllabus",
     "title": "Participation &amp; Professionalism",
     "content": "Your participation &amp; professionalism grade is based on your interactions with the instructors and TAs: in-class, on the course discussion forum, in office hours, etc. Remote Participation . Generally this class does not support remote participation: teaching is much more effective, in my experience, when everyone is physically present. However, I understand that sometimes you are sick, traveling, or otherwise unable to come to class. I will arrange for remote participation in any particular lecture as long as you request it at least one hour in advance (if you’re sick or in some other emergency) or 24 hours in advance (if you’re traveling or otherwise planning to be unable to come to class). Notify the instructor via email if you need to participate in a particular class remotely. Asking Questions . There is a course Discord server which you can use to ask (and answer) questions about any of the course topics or for help with the homework. Participating on Discord is optional, but if you do participate in a productive manner (especially by answering other student’s questions!), it will have a positive impact on your participation score. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#participation--professionalism",
     "relUrl": "/about/#participation--professionalism"
-  },"7": {
+  },"8": {
     "doc": "Syllabus",
     "title": "Programming Projects",
     "content": "This course has four programming projects: . | PA1: the Rosetta Stone: Students will implement the same program in four languages, one from each of the following buckets: . | Bucket 1: Languages You Already Know: Java, C, C++, or Python3 | Bucket 2: Languages With An Unusual Type System: Kotlin, Rust, or TypeScript | Bucket 3: Functional Languages: OCaml or Haskell | Bucket 4: Project Language: Classroom Object-Oriented Language (COOL) (TODO: host this yourself) | . | PA2: the COOL Typechecker: the typechecker takes an AST (produced by a provided COOL parser) as input and produce either a type error or a special AST-related output format that serializes data structures produced during typechecking. | PA3: the COOL Code Generator: the code generator takes the typechecker’s output and produces x86-64 assembly. This assignment does not require any optimization, only correctness. | PA4: the COOL Optimizing Compiler: the optimizing compiler is a modified version of PA3 that also optimizes the x86-64 code that it produces. This project is judged on the speed of the generated assembly code (in addition to correctness). Students are required to 1) implement some specific optimizations, including dead code elimination, and 2) match the performance of the COOL reference compiler’s generated assembly. We will provide an anonymized leaderboard of student submissions (and reference implementations). | . Each assignment includes at least one “checkpoint” to encourage you to start early. All assignments except PA1 may be completed in pairs (but working alone is also permitted). ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#programming-projects",
     "relUrl": "/about/#programming-projects"
-  },"8": {
+  },"9": {
     "doc": "Syllabus",
     "title": "Exams",
     "content": "There are two exams in this course: . | a mid-term, which is held in class about halfway through the semester (worth 10% of your course grade) | a final exam, which is held during the university-scheduled final exam slot (worth 15% of your course grade) | . Both exams will cover a range of topics discussed in lecture and/or in the mandatory readings, from any time during the semester up to the point when the exam is held. The exam will be comprehensive, covering many of the topics we discuss; I may ask about anything we covered in class or that you were supposed to read. The exam will be conducted in person. Contact the course staff privately via email if you are not able to attend for any reason (e.g., you are sick or need special accommodations) and we will arrange an alternative. See the exams page for more information. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#exams",
     "relUrl": "/about/#exams"
-  },"9": {
+  },"10": {
     "doc": "Syllabus",
     "title": "Collaboration Policy",
     "content": "Collaboration is generally encouraged in this course, as is consulting online resources. You are permitted to copy small amounts of code from any source except someone else’s copy of an assignment, as long as you cite your source. “someone else’s copy of an assignment” also includes students not currently enrolled in the course - e.g., students who took this class in previous semesters or took classes that used similar projects at other institutions. To make this more clear, here are some examples of acceptable and unacceptable collaboration on a programming assignment in this course: . Acceptable collaborations: . | Discuss problems/solutions/anything with any number of other students (as long as you don’t look at each other’s code). | Copy a short (about 10 lines or fewer - use your judgment) snippet from stackoverflow.com or a similar source, as long as you include a comment with the source URL. | Copy code written by one of your teammates during a group project for another part of the group project. | Copy code from the output of a generative AI tool such as ChatGPT that you prompted yourself, if you include a link to a record of your interaction with the model (e.g., ChatGPT’s “share” feature) as a code comment. | . Unacceptable collaborations: . | Copy code directly from another student on an individual project. | Copy code from another group on a group project. | Copy a significant portion (more than about 10 lines of code or a single method - use your judgment) of your assignment from the internet, even if you cite your source. | Copy a short snippet from the internet without citing your source. | Copy code from the output of a generative AI tool (such as ChatGPT) without citing your source | Copy code from the output of a generative AI tool prompted by someone other than you (or your teammates, for a group project) | . These rules are intended to mimic what is acceptable in industry when working as a software engineer: using the resources available to you, such as your teammates and the wider internet, is always allowed. But, it would be illegal to copy code from a competing company working on a similar product. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#collaboration-policy",
     "relUrl": "/about/#collaboration-policy"
-  },"10": {
+  },"11": {
     "doc": "Syllabus",
     "title": "Consequences of Violating the Collaboration Policy",
     "content": "(From the University) . “Academic Integrity is the cornerstone of higher education and is central to the ideals of this course and the university. Cheating is strictly prohibited and devalues the degree that you are working on. As a member of the NJIT community, it is your responsibility to protect your educational investment by knowing and following the academic code of integrity policy that is found at: http://www5.njit.edu/policies/sites/policies/files/academic-integrity-code.pdf. Please note that it is my professional obligation and responsibility to report any academic misconduct to the Dean of Students Office. Any student found in violation of the code by cheating, plagiarizing or using any online software inappropriately will result in disciplinary action. This may include a failing grade of F, and/or suspension or dismissal from the university. If you have any questions about the code of Academic Integrity, please contact the Dean of Students Office at dos@njit.edu” . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#consequences-of-violating-the-collaboration-policy",
     "relUrl": "/about/#consequences-of-violating-the-collaboration-policy"
-  },"11": {
+  },"12": {
     "doc": "Syllabus",
     "title": "Late Policy",
     "content": "TBD, but some late submissions will be allowed. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#late-policy",
     "relUrl": "/about/#late-policy"
-  },"12": {
+  },"13": {
     "doc": "Syllabus",
     "title": "Acknowledgments",
     "content": "This course is heavily indebted to Wes Weimer’s courses that I took as an undergraduate: UVa’s CS 4610 and CS 4501 that I took as a student. Thanks to Wes for sharing his materials! . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/about/#acknowledgments",
     "relUrl": "/about/#acknowledgments"
-  },"13": {
+  },"14": {
     "doc": "Calendar",
     "title": "Calendar",
     "content": "TBD . <!--- ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/",
     "relUrl": "/calendar/"
-  },"14": {
+  },"15": {
     "doc": "Calendar",
     "title": "Week 1",
     "content": "Sep 4 Introduction Mandatory reading: the Individual Project 0 Specification and the syllabus (No reading quiz today, but these are fair game for any subsequent reading quiz.) Your Choice reading: Brooks’ No Silver Bullet . Sep 6 Code-level Design Mandatory reading: Spolsky’s The Joel Test (note that this article is from 2000, so the examples are a little dated), Gransee’s Opinions on Opinionated Formatters, the Prettier team’s Option Philosophy, and Wikipedia’s Law of Triviality. Your Choice reading: Ajami et al.’s Syntax, predicates, idioms — what really affects code complexity? . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-1",
     "relUrl": "/calendar/#week-1"
-  },"15": {
+  },"16": {
     "doc": "Calendar",
     "title": "Week 2",
     "content": "Sep 9 Individual Project 0 due Sep 11 Reading Code Mandatory reading: Atwood’s Learn to Read the Source, Luke, Coleman’s How to quickly and effectively read other people’s code, and the Individual Project 1 Specification Your Choice reading: Endres et al.’s Relating Reading, Visualization, and Coding for New Programmers: A Neuroimaging Study . Sep 13 Testing (1) Mandatory reading: Shore’s The Art of Agile Development: Test-Driven Development Your Choice reading: Saff and Ernst’s An Experimental Evaluation of Continuous Testing During Development . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-2",
     "relUrl": "/calendar/#week-2"
-  },"16": {
+  },"17": {
     "doc": "Calendar",
     "title": "Week 3",
     "content": "Sep 18 Testing (2) Mandatory reading: Petrovic’s Mutation Testing Your Choice reading: Memon et al.’s Taming Google-Scale Continuous Testing . Sep 20 Testing (3) Mandatory reading: SQLite’s How SQLite is Tested and Your Choice reading: Barr et al.’s The Oracle Problem in Software Testing: A Survey . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-3",
     "relUrl": "/calendar/#week-3"
-  },"17": {
+  },"18": {
     "doc": "Calendar",
     "title": "Week 4",
     "content": "Sep 23 Individual Project 1 due Sep 25 Requirements and Specifications (1) Mandatory reading: Spolsky’s How to be a Program Manager, Ubl’s Design Docs at Google, and the Individual Project 2 Specification Your Choice reading: Ernst et al.’s The Daikon system for dynamic detection of likely invariants . Sep 25 Project Formation survey due Sep 27 Requirements and Specifications (2) Mandatory reading: Wayne’s Using Formal Methods at Work and the Group Project Specification Your Choice reading: Lamport’s Introduction to TLA . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-4",
     "relUrl": "/calendar/#week-4"
-  },"18": {
+  },"19": {
     "doc": "Calendar",
     "title": "Week 5",
     "content": "Oct 2 Version Control Mandatory reading: Ernst’s Version control concepts and best practices and Thompson’s My favourite Git commit Your Choice reading: De Rosso et al.’s Purposes, concepts, misfits, and a redesign of git . Oct 4 Process Mandatory reading: The Agile Manifesto and its Twelve Principles (this should be a quick read, but I suggest you think about what it is advocating for at least a few minutes before moving onto the next article) and Santo’s “Waterfall” doesn’t mean what you think it means Your Choice reading: Anda et al.’s Variability and Reproducibility in Software Engineering: A Study of Four Companies that Developed the Same System . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-5",
     "relUrl": "/calendar/#week-5"
-  },"19": {
+  },"20": {
     "doc": "Calendar",
     "title": "Week 6",
     "content": "Oct 7 Project Plan due Oct 9 Working in Teams Mandatory reading: Fowler’s Two Pizza Team and Jackson’s The Google Technical Interview Your Choice reading: Behroozi et al.’s Hiring is Broken: What Do Developers Say About Technical Interviews? . Oct 11 Code Review Mandatory reading: Google’s How to do a code review (read all six linked sub-pages in the bulleted list) Your Choice reading: Bacchelli and Bird’s Expectations, Outcomes, and Challenges Of Modern Code Review . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-6",
     "relUrl": "/calendar/#week-6"
-  },"20": {
+  },"21": {
     "doc": "Calendar",
     "title": "Week 7",
     "content": "Oct 14 Individual Project 2 due Oct 16 Languages Mandatory reading: Howarth’s Why Discord is Switching from Go to Rust Your Choice reading: Hoare’s Hints on Programming Language Design (shorter than it looks!) . Oct 18 Build Systems Mandatory reading: Atwood’s The F5 Key Is Not a Build Process Your Choice reading: Mokhov et al.’s Build Systems à la Carte . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-7",
     "relUrl": "/calendar/#week-7"
-  },"21": {
+  },"22": {
     "doc": "Calendar",
     "title": "Week 8",
     "content": "Oct 21 Revised Project Plan due Oct 23 Static Analysis Mandatory reading: Ayewah et al.’s Experiences Using Static Analysis to Find Bugs and Schwartz-Narbonne’s How to integrate formal proofs into software development Your Choice reading: Chapter 2 (“Abstract Interpretation”) of Ernst’s Notes on Program Analysis . Oct 25 Debugging (1) Mandatory reading: Zeil’s Debugging – Using Hypotheses to Track Down the Culprit and Taylor’s Debugging Your Choice reading: Ko and Myers’ Designing the WhyLine: A Debugging Interface for Asking Questions about Program Behavior . Project Deployment Demo due . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-8",
     "relUrl": "/calendar/#week-8"
-  },"22": {
+  },"23": {
     "doc": "Calendar",
     "title": "Week 9",
     "content": "Oct 30 Debugging (2) Mandatory reading: Zeller’s Automated Debugging: Are We Close? Your Choice reading: Cleve and Zeller’s Locating Causes of Program Failures . Nov 1 Mid-term Exam (in-class) see the exams page for old and practice exams (with keys) ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-9",
     "relUrl": "/calendar/#week-9"
-  },"23": {
+  },"24": {
     "doc": "Calendar",
     "title": "Week 10",
     "content": "Nov 6 Software Architecture Mandatory reading: Kästner’s Thinking Like a Software Architect and Ross’ How Architecture Diagrams Enable Better Conversations Your Choice reading: Garlan’s Software Architecture . Nov 8 Design Patterns Mandatory reading: Fowler’s Writing Software Patterns (read up to, but not including, “Common Pattern Forms”) and Lewis and Fowler’s Microservices Your Choice reading: Kellogg et al.’s Verifying Object Construction . Project Wizard-of-Oz Demo due . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-10",
     "relUrl": "/calendar/#week-10"
-  },"24": {
+  },"25": {
     "doc": "Calendar",
     "title": "Week 11",
     "content": "Nov 13 Tech debt, refactoring, and maintenance (1) Mandatory reading: Allman’s Managing Technical Debt Your Choice reading: Kim et al.’s A Field Study of Refactoring Challenges and Benefits . Nov 15 Tech debt, refactoring, and maintenance (2) Mandatory reading: Spolsky’s Things you should never do, part I and Majors’ Friday Deploy Freezes Are Exactly Like Murdering Puppies Your Choice reading: Malkawi’s The art of software systems development: Reliability, Availability, Maintainability, Performance (RAMP) (read up through the 4 “Cases” and then skip to and read the Discussion) . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-11",
     "relUrl": "/calendar/#week-11"
-  },"25": {
+  },"26": {
     "doc": "Calendar",
     "title": "Week 12",
     "content": "Nov 20 DevOps (1) Mandatory reading: Sloss’ “Introduction” and Baye’s “Emergency Response” from Google’s Site Reliability Engineering Your Choice reading: Dean and Barroso’s “The Tail at Scale” . Nov 22 DevOps (2) Mandatory reading: Lunney and Lueder’s “Postmortem Culture: Learning from Failure” from Google’s Site Reliability Engineering and Luu’s “Postmortem Lessons” Your Choice reading: Xu et al.’s “Do Not Blame Users for Misconfiguration” . Nov 22 Project Preliminary Demo due ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-12",
     "relUrl": "/calendar/#week-12"
-  },"26": {
+  },"27": {
     "doc": "Calendar",
     "title": "Week 13",
     "content": "Nov 27 Free and Open-source Software Mandatory reading: Stallman’s Why Open Source Misses the Point of Free Software and Zaitsev’s The Future of Open Source is Polarized Your Choice reading: Terrell et al.’s Gender differences and bias in open source: pull request acceptance of women versus men . Nov 29 No class (Thanksgiving holiday) ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-13",
     "relUrl": "/calendar/#week-13"
-  },"27": {
+  },"28": {
     "doc": "Calendar",
     "title": "Week 14",
     "content": "Dec 4 Software Engineer Panel Mandatory reading: none, but you must submit questions (TODO: link to assignment) Your Choice reading: none . Dec 6 What is Software Engineering? Mandatory reading: Shaw’s “What makes good research in software engineering?” Your Choice reading: read 10 abstracts in the latest ICSE proceedings and make a list of words you don’t know. Then, look up at least 5 of those words and write a brief definition. Send me the list of words, the 5 definitions, and the titles of the papers whose abstracts you read over email. (The reading quiz question for this reading will cover a topic that everyone who chooses this reading has read.) . Totally Optional, For Fun Readings: Gross’ The Grug Brained Developer and Kingsbury’s Reversing the technical interview . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-14",
     "relUrl": "/calendar/#week-14"
-  },"28": {
+  },"29": {
     "doc": "Calendar",
     "title": "Week 15",
     "content": "Dec 10 All group project final deliverables due Dec 11 Group project presentations, all final deliverables due BEFOREHAND. Attendence (in-person) is required. At least one group member must bring a laptop with a working demo of your group project (running in a publicly-accessible, deployed covey.town instance). ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-15",
     "relUrl": "/calendar/#week-15"
-  },"29": {
+  },"30": {
     "doc": "Calendar",
     "title": "Week 16",
     "content": "Exam Slot (TBD) Dec TBD All group project final deliverables (re-submission) due Dec TBD+1 Individual Reflection due --> ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-16",
     "relUrl": "/calendar/#week-16"
-  },"30": {
+  },"31": {
     "doc": "Exams",
     "title": "Exams",
     "content": "My exams are generally cumulative: anything we’ve covered in the course up to the point at which you take the exam is fair game. I may also include questions about assigned mandatory readings, homework assignments, or any other class content that you are supposed to have viewed. My exam design philosophy is to aim for a wide range of question difficulties: I try to include both some questions that I think every student should get right and some questions that I think are difficult enough that only those who have deeply understood multiple concepts that we covered in class will even be able to answer them in a reasonable way, and everything in between. To help you prepare for this semester’s exams, below you can find links to exams from other courses that I’ve taught in previous semesters, all of which have solutions (“keys”). These exams are provided “as-is” to help you study, but please don’t over-rely on them: this is a different course, so the topics will be different! However, I generally use the same exam format in every course. CS 490 Sp23 Practice Final (key) . CS 490 Sp23 Final (key) . CS 490 Au23 Midterm (key) . CS 490 Au23 Final (key) . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/exam/",
     "relUrl": "/exam/"
-  },"31": {
+  },"32": {
     "doc": "How to Read a Paper (Useful for \"Your Choice\" Readings)",
     "title": "What is a research paper?",
     "content": "In computer science, original research is typically published at peer-reviewed conferences. Typically these papers have between two and ten authors, and the paper typically reports on about a person-year’s worth of work (though this can vary widely). The authors will be a mix of junior and senior researchers: anyone who contributed something “intellectually significant” to the paper is typically listed as an author. In most CS sub-disciplines (including software engineering, which is the source for most of the “Your Choice” readings), author order is indicative: the first author is usually the person who did most of the technical work (e.g., implementing the tool, running the experiments, etc.), and the last author is typically the project leader (often, but not always, the first author’s research advisor). Often, but not always, the first author is a PhD student. To be accepted at a peer-reviewed conference, a research paper must be novel: that is, it must contain some new knowledge or evidence that the research community wasn’t aware of before. This requirement impacts how they are written: a research paper must focus on the specific thing that is novel about it, rather than surveying the field as a whole (though you can find “survey” papers that give an overview of a research area, and if you need to know the current state of a sub-field, looking for a survey paper is the way to go). ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/reading-papers.html#what-is-a-research-paper",
     "relUrl": "/tutorials/reading-papers.html#what-is-a-research-paper"
-  },"32": {
+  },"33": {
     "doc": "How to Read a Paper (Useful for \"Your Choice\" Readings)",
     "title": "External Resources",
     "content": "I highly recommend Keshav’s How to Read a Paper if you’re not sure where to start. This short (3-page) article gives a specific strategy for attacking a research paper. I recommend Griswold’s How to Read an Engineering Research Paper. This short article is more aimed at PhD students. but it helps to explain how a research paper is structured (and might be useful to you to help understand the anatomy of a research paper). ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/reading-papers.html#external-resources",
     "relUrl": "/tutorials/reading-papers.html#external-resources"
-  },"33": {
+  },"34": {
     "doc": "How to Read a Paper (Useful for \"Your Choice\" Readings)",
     "title": "How to Read a Paper (Useful for \"Your Choice\" Readings)",
     "content": "Many of the readings for this course are papers from the research literature. These papers can be intimidating if you haven’t encountered them before. This page contains some suggestions on how to read a research paper, along with links to useful external resources. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/reading-papers.html",
     "relUrl": "/tutorials/reading-papers.html"
-  },"34": {
+  },"35": {
     "doc": "Revised Project Plan",
     "title": "Changelog:",
     "content": ". | 17 October, ~5pm eastern time: updated the rubric based on feedback from TAs about initial project plan grading. | . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/projects/revised-project-plan.html#changelog",
     "relUrl": "/projects/revised-project-plan.html#changelog"
-  },"35": {
+  },"36": {
     "doc": "Revised Project Plan",
     "title": "Revised Project Plan Due Monday 21 October 2024 11:59pm AoE",
     "content": "You should use the feedback on your preliminary project plan to revise the scope of your project, and discuss any changes with your assigned mentor. The goal of this assignment is to finalize the intended scope of your project based on these discussions and to outline the tasks that you will need to accomplish in order to complete your project. Your mentor will review your project plan and provide you with feedback on the scope and details provided in your preliminary plan. In this deliverable, you will revise your project plan based on that feedback, and any preliminary research tasks that you have completed. If there were any deficiencies or concerns noted by your mentor on your preliminary plan, you must address those concerns in this revised plan. If you are unsure of how to address any of these concerns or if you have addressed them, please discuss them with your mentor before submitting this revised plan. We list page maximums for each section as general guidance of what we are willing to grade. Please do not feel compelled to use all of the pages provided, and remember that a diagram or table can be as expressive (or more) as a comparable amount of text. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/projects/revised-project-plan.html#revised-project-plan-due-monday-21-october-2024-1159pm-aoe",
     "relUrl": "/projects/revised-project-plan.html#revised-project-plan-due-monday-21-october-2024-1159pm-aoe"
-  },"36": {
+  },"37": {
     "doc": "Revised Project Plan",
     "title": "Revised Problem Statement, User Stories and Acceptance Criteria (max 4 pages)",
     "content": "Your project plan should begin with a 1-3 paragraph introductory problem statement: what problem in Covey.Town does your (proposed) feature solve? Provide a paragraph (or two) that describes why you are interested in building this feature. Given the problem statement, develop three user stories that show how a user would interact with the feature. User stories are requirements specified in the format “As a &lt; type of user &gt;, I want &lt; some goal &gt; so that &lt; some reason &gt;.” My conditions of satisfaction are &lt; list of common cases and special cases that must work &gt;. Please make sure that your conditions of satification are complete (i.e., cover all common cases) and can be turned into testable behaviors. You should include three different user stories to describe how users will interact with your feature. Your three user stories should cover the key behavior that your feature will provide. Do not provide more than three user stories. Your problem statement and description of user stories and conditions of satisfaction should be between 2-4 pages. This revised project plan should be a standalone document (it is OK to copy/paste from the preliminary plan in this case). Mandatory update for all teams: Along with each condition of satisfaction, indicate its priority (high, medium, low). The priority should help refine your task breakdown. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/projects/revised-project-plan.html#revised-problem-statement-user-stories-and-acceptance-criteria-max-4-pages",
     "relUrl": "/projects/revised-project-plan.html#revised-problem-statement-user-stories-and-acceptance-criteria-max-4-pages"
-  },"37": {
+  },"38": {
     "doc": "Revised Project Plan",
     "title": "Revised Work Breakdown (max 10 pages)",
     "content": "Given the project concept that you have chosen and the functionality that you expect to implement to satisfy your user stories, define a breakdown of the work that will be necessary to complete the project. A work breakdown includes all of the tasks necessary to accomplish the project, and will be an artifact that we will refer back to throughout the project to evaluate whether you are making satisfactory progress. Consider all of the kinds of tasks that your team will need to perform, including knowledge acquisition, design, implementation, testing and documentation tasks. It is hard to say (generically) how many work items are necessary. Each task on the work breakdown should be assigned to exactly one team member, who should provide a “T-Shirt” estimate for how long it will take (along with a justification for that estimate). Consider the dependencies between tasks: perhaps an API needs to be designed and specified before implementation can begin; perhaps your development environment needs to be configured before anything else can proceed. Assign tasks to sprints considering these dependencies. Given the preliminary nature of your project, we do not expect that you will know all of the details about precisely how to implement your feature such that you could break it down into tasks that you feel could be implemented in a day or two. However: Large tasks (those which you can not provide a responsible estimate for) must be accompanied by smaller “research” tasks that can be performed early on in the project, providing clear deadlines by which the task must either be refined into smaller tasks (based on new knowledge gathered), or reworked/abandoned. You might consider even scheduling some of these research tasks to take place during Sprint 0 (immediately after submitting this document). For example: Consider if you were proposing a “Viewing Area” project (this was an individual project in previous semesters). It might be difficult to consider how to break down a task like “Implement the frontend components for sychnronized video playback” into something that you could commit to doing within a day or two. Given that this is a task that can be delayed until the end of the project (no other tasks depend on it), it would be wise to consider having some tasks early on in the project, such as: “Find react components that embed YouTube videos,” and “Implement simple video player that does not synchronize playback.” Completing these smaller tasks early would let you both demonstrate that some forward progress is being made, and also allow you to create a much more responsible estimate for how that last, otherwise insurmountably large task would take. Be realistic, and leave time for contingencies and for your other courses. If you are uncertain that some tasks will be feasible, then be sure to include evaluation tasks earlier-on in the project that will allow for “go/no-go” decisions to move forward on a task or drop it. We understand that it is quite difficult to estimate the technical complexity of a new project (as you are doing in the case of this course). Throughout the project period, teams will meet regularly with their dedicated mentor, who will help track progress on a week-to-week basis and help to determine when adjustments to the project scope are needed. Each work item should contain the following information: . | Task to be performed | User story (or stories) that this task relates to | Team member responsible for completing the task | T-shirt size estimate of how long will be needed to complete the task, using the following buckets: . | Small: Can likely be completed by one team member in one sitting of less than 3-4 hours | Medium: Likely to require involvement of multiple team members, over the course of 1-2 days | Large: Currently unable to provide a responsible estimate. | . | A brief (1-2 sentence max) justification of how you reached the size estimate of the task | Milestone for delivering the task, chosen from one of the following two-week sprints: . | Sprint 0: Oct 7 - Oct 18 | Sprint 1: Oct 19 - Nov 1 | Sprint 2: Nov 2 - Nov 15 | Sprint 3: Nov 16 - Nov 29 | Sprint 4: Nov 30 - Dec 10 (note: this sprint is shorter than the other—only about 10 days. We don’t recommend scheduling many tasks in this sprint, because of the likelihood that some tasks from prior sprints might not be done yet.) | . | . Your work breakdown should take the format of a simple textual list. Mandatory update for all teams: Even if your work breakdown is entirely unchanged compared to the preliminary plan, please be certain to include updates on all “sprint 0” tasks (those which were scheduled to be completed before the due date of this revised plan). Many teams include research/learning tasks in the first week to help inform the rest of the work breakdown: you should be certain to revise your work breakdown based on what you have learned so far. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/projects/revised-project-plan.html#revised-work-breakdown-max-10-pages",
     "relUrl": "/projects/revised-project-plan.html#revised-work-breakdown-max-10-pages"
-  },"38": {
+  },"39": {
     "doc": "Revised Project Plan",
     "title": "Submission",
     "content": "Your revised project plan should be submitted as a single PDF in Canvas to the assignment “Revised Project Plan.” Each team submits a single document to Canvas. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/projects/revised-project-plan.html#submission",
     "relUrl": "/projects/revised-project-plan.html#submission"
-  },"39": {
+  },"40": {
     "doc": "Revised Project Plan",
     "title": "Grading",
     "content": "The revised project plan will account for 10% of your project grade, and will be graded out of 100 points. The grading of the revised project plan is further broken down as follows: . Introductory problem statement (5 points): . | Receive full marks if there is a narrative consisting of 4-10 sentences that describes a specific problem that your project aims to solve. | Receive partial credit if the narrative is present, but does not describe a problem that the project aims to solve | Minor deductions for factual errors (“don’t say false things”) or egregious overclaims (“our project will usher in a new era of world peace”) | . User stories (15 points): . Each of the three user stories will account for 5% of your grade on this assignment and graded as follows: . | Receive full marks if: . | The user story fits the problem statement | The user story satisfies the INVEST criteria for good user stories (construed quite broadly) | The user story includes conditions of satisfaction that cover the “normal” expected behavior of the feature, and any relevant error cases | Conditions of satisfaction can be turned into Testable behaviors | Conditions of satisfaction are prioritized | . | . Work breakdown (80 points): . Your work breakdown will be evaluated holistically on the following rubric: . Coverage of tasks needed (30 points): . Receive full marks if the work breakdown includes all (reasonably expected) tasks to implement your feature at a level of detail sufficient for the course staff to understand what you will be working on in a given sprint, considering these kinds of tasks: . | Background research | Design of interfaces and data types | Deployment of third-party services | Implementation | Testing | Documentation | . It is not possible to state generically for all projects whether all of the above types of tasks are necessary. However, we believe that this list is exhaustive (we do not expect other kinds of tasks). Assignment of tasks (10 points): . Receive full marks if: . | Each element of the work breakdown is assigned to specific team members, and no “small” or “medium” task is assigned to more than one team member. You have a bit of flexibility about how you want to assign tasks (e.g., it’s permitted for you to have “primary” and “secondary” team members for each tasks, just one team member per task, etc.) as long as it is clear to the course staff which team member has the primary responsibility for each task. | The distribution of tasks of each size are roughly similar between the whole team (no single person is assigned significantly more or fewer tasks of one size) | Each team member has at least one task assigned to them during each sprint | . Sizing of tasks (30 points): . Receive full marks if each element on the work breakdown: . | Has a reasonable size estimate (small, medium, or large) that is provided by the team member assigned the task. | Has a reasonable justification for that estimation | Every “large” task: . | Is accompanied by a reasonable explanation of why the team is unable to provide a responsible estimate | Is accompanied by at least one small or medium task, scheduled well-before the “large” task is due to be completed. We would expect that most of these research tasks are scheduled to sprint 0, or perhaps sprint 1. | . | . Scheduling of tasks (10 points): . Receive full marks if each element on the work breakdown: . | Is assigned to a sprint | There are no obvious constraint violations (tasks that logically must happen before others should be scheduled before them) | There are no “Large” tasks scheduled in sprint 0 | Tasks scheduled to be completed before the revised plan is due have an update as to their status, and the work breakdown is updated to reflect the result of these tasks. | . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/projects/revised-project-plan.html#grading",
     "relUrl": "/projects/revised-project-plan.html#grading"
-  },"40": {
+  },"41": {
     "doc": "Revised Project Plan",
     "title": "Revised Project Plan",
     "content": " ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/projects/revised-project-plan.html",
     "relUrl": "/projects/revised-project-plan.html"
-  },"41": {
+  },"42": {
     "doc": "Staff",
     "title": "Course Staff",
     "content": " ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/staff/#course-staff",
     "relUrl": "/staff/#course-staff"
-  },"42": {
+  },"43": {
     "doc": "Staff",
     "title": "Instructors",
     "content": "Martin Kellogghe/him . martin.kellogg@njit.edu . Office Hours: Thursdays, 1:30-2:30pm eastern, GITC 4314; or by appointment. To schedule an appointment with me, check my calendar and add a calendar event in any open spot that works for you during regular business hours (Monday to Friday, 9:30-5:30). You must schedule meetings at least 24 hours in advance, or I will automatically decline them. In your invitation, you must, at a minimum, 1) invite me to the event, 2) add a note to the event description that mentions CS 490 and what you’d like to meet about, and 3) specify whether you would prefer the meeting to be in-person or remote. It is unprofessional to schedule a meeting with me unless you have exhausted your other options to solve the issue (for example, don’t schedule a meeting with me about a homework issue until you have attended a TA’s office hours and asked there). ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/staff/#instructors",
     "relUrl": "/staff/#instructors"
-  },"43": {
+  },"44": {
     "doc": "Staff",
     "title": "Teaching Assistants",
     "content": "Glenn Merritt . gmm46@njit.edu . Office Hours: Wednesdays 3-4pm (GITC 4325) and Thursdays 10-11am (GITC 4325) . Lauren Coste . lgc3@njit.edu . Office Hours: Mondays 4-5pm (GITC 4324) and Fridays 4-5pm (GITC 4324) . Peter Gauldhe/him . pag@njit.edu . Office Hours: Mondays 10-11am (GITC 4403) and Tuesdays 6-7pm (GITC 4403) . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/staff/#teaching-assistants",
     "relUrl": "/staff/#teaching-assistants"
-  },"44": {
+  },"45": {
     "doc": "Staff",
     "title": "Staff",
     "content": " ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/staff/",
     "relUrl": "/staff/"
-  },"45": {
+  },"46": {
     "doc": "Tutorials",
     "title": "Tutorials",
     "content": " ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/",
     "relUrl": "/tutorials/"
-  },"46": {
+  },"47": {
     "doc": "Ubuntu Setup Guide",
     "title": "Ubuntu Setup Guide",
     "content": "This is a software engineering course. There a focus on reading code and using large systems to accomplish tasks, because real systems are large—too large for you to hold their entire specification or codebase in your head, almost certainly. In this course, you will be expected to develop and maintain programs and scripts in multiple languages using multiple tools. As a result, we want to help you prepare a suitable development environment for the assignments in this course—your local environment might work, but all the assignments are guaranteed to work in Ubuntu 22.04. This tutorial will guide you in setting up an Ubuntu 22.04 environment. This tutorial will help you create a development environment that matches the autograder environment. If you choose to deviate from the suggested x86_64 Ubuntu 22.04 environment, you may encounter corner cases that cause test cases to fail on the autograder. In some cases, the staff may direct you to set up an Ubuntu 22.04 Virtual Machine if you have not done so and are stuck on some assignments. Ultimately, it is your responsibility to read documentation and install supported tools. This tutorial is meant to help you walk through the creation of an x86_64 Ubuntu 22.04 environment. This tutorial is most useful for deploying covey.town, which is easiest on a free-tier AWS instance created using the “Cloud” option in this tutorial. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/ubuntu.html",
     "relUrl": "/tutorials/ubuntu.html"
-  },"47": {
+  },"48": {
     "doc": "Ubuntu Setup Guide",
     "title": "Two Options — Local or Cloud",
     "content": "There are two options that this tutorial covers: . | Option 1: Local: Set up a local Ubuntu 22.04 Virtual machine on your computer. This is the most popular option for individual assignments, but the individual assignments typically work in most environments (so you probably don’t need to do this unless you run into a problem). It has a nice UI that makes it easy to navigate. | Some students may have WSL Ubuntu set up. It is a different version of Ubuntu and may or may not work for this class: we recomend that you follow the instructions below if you run into trouble. However, your experience setting it up will help you here! | Some student reports that VirtualBox is not compatible with the new Macbooks (e.g., with M1 and M2 chipsets). If you are using such a Macbook, you may have to select the Option 2 below and use the Cloud instead of your local machine. | Some students have experience with docker. Unfortunately, docker will not suffice here (but experience with it will help you): follow the instructions below. | Some students already have other versions of Ubuntu installed. Covey.town will probably work fine on these other versions, but again if you run into trouble you should follow these instructions. | . | Option 2: Cloud: Set up an Amazon EC2 cloud instance with Ubuntu 22.04 running on it. This option will work if you have a slower or older computer. Start early; Amazon takes up to 24 hours to verify cloud computing accounts. This option involves more of a command-line interface but typically runs some course tools a bit faster than local machine. This option also has the advantage that you can easily run a webserver (or other publicly-accessible webservice, such as covey.town!) from an EC2 instance. | . Both options should work with all assignments in this course. Option 1 (local VM) will have you install VirtualBox on your computer, download an Ubuntu 22.04 installation image, and install x86_64 Ubuntu 22.04 in your virtual machine. A reasonably modern computer (e.g., at most 5 years old) should be able to run a VM guest without issue. However, some students report that the VM executes too slowly (e.g., the mouse is laggy, keystrokes are missed, programs take too long, etc.). If your VM guest is too slow, you can consider using Option 2 instead (see below). First, you may want to read the summary of virtual machines and cloud computing below. Even if you are familiar with the concepts from previous experiences, this course may use slightly different terminology, and I recommend that you skim the material (click on the box below to see the background material). Background: Virtual Machines and Cloud Computing A Virtual Machine is an emulation of a computer system. Loosely, you can think of a VM as a program that can run an entire virtual computer system. Virtual machines are powerful software systems that enable running software designed for one operating system inside another operating system. For example, you can use your Windows host computer to run a Virtual Machine that contains a Linux operating system. Consider the image below: . This is a Windows 10 host_computer running three different Virtual Machine _guests. The guest instances are complete (virtual) environments that are isolated from the host. All of the guests share the host’s hardware as they execute — each window in the screenshot above lets you interact with a separate emulated guest. Thus, even though the host is a Windows computer, you can use one of the guests to execute Linux software inside the guest. Virtual Machines can be used in many combinations. You can have a Windows, Linux, or Mac host computer, and run arbitary numbers and combinations of Linux and Windows guests. Finally, guests are stored as files in the host computer — this means you can move your VM guest from one host to another by transferring that file around. Option 1 (“Local”): You can choose to set up and run your own Ubuntu 22.04 virtual machine locally. This will allow you complete all of the assignments in this course within that virtual machine. However, some students report that the VM guest runs too slowly (especially if you do not have enough RAM in your computer). If you find that a local VM is too slow, you can use Option 2 instead. Virtual machines are a critical part of Cloud computing. You can “rent out” computing resources from a provider like Amazon EC2 or Microsoft Azure to do whatever computation you might need. Amazon EC2 and Microsoft Azure both offer you virtual machine guests that run on their hardware. Thus, you can get access to a virtual machine running whatever operating system you like to run a variety of software. Option 2 (“Cloud”): If you find that a local VM is too slow, you can instead get a free Ubuntu 22.04 virtual machine from Amazon EC2 (or any other cloud computing provider, but this specification walks you through how to do it on EC2). Amazon EC2 (“Elastic Cloud Compute”) is a service that lets you buy and configure virtual machines. Option 2 has you setup and launch an Ubuntu 22.04 cloud instance (this is free if you are a student). Many of the assignments are easier to complete on Linux or similar command-line systems. If you’re not comfortable with such systems, the background tab below on Linux Fundamentals might be useful: . Background: Linux Fundamentals Vanderbilt professor Kevin Leach has prepared a (long) video that provides a gentle introduction to a number of Linux concepts that are relevant to this course. This video is optional, but you may find it useful if you are less familiar with the Linux environment. There are timestamps in a comment below the video that contain points of interest, such as: . | terminals | environment variables | scripts in the shell | compiling programs from source | using ssh | . The first half is more about terminals and shells (why do we have to type ./a.out? why can’t we just say a.out?), and the second half is more about compiling programs from source. The video also covers elinks in particular, which is a terminal-based browser program (using elinks is not required for this course, but it might be helpful if you choose to use a cloud computer and need to access the web to e.g., submit an assignment). ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/ubuntu.html#two-options--local-or-cloud",
     "relUrl": "/tutorials/ubuntu.html#two-options--local-or-cloud"
-  },"48": {
+  },"49": {
     "doc": "Ubuntu Setup Guide",
     "title": "Option 1 — Local Virtual Machine",
     "content": "You can set up your own local virtual machine for free. However, before you proceed, consider checking whether your CPU supports accelerated virtualization. If your CPU does not support virtualization extensions, then your VM may run slowly. If that’s the case, consider Option 2 for this assignment instead. You will need: . | A copy of VirtualBox for your operating system. General download link (look under “Platform Package” or similar). | A copy of 64-bit Ubuntu 22.04 (Download — 64-bit is required here: don’t use 32-bit). This is a large .iso file that might take a long time to download. You don’t need it until part way through the installation process, but you should start the download now. | When something goes wrong during this installation, we recommend that you search this webpage and also look for previous posts on the forum. Some solutions may be listed a little lower on the webpage than when you encounter them. Macs typically give students many more issues than Windows machines, so if you are a student using a Mac, looking to see if the issue is already addressed can be a big time saver. | . VirtualBox . VirtualBox is a Virtual Machine Manager. You install VirtualBox on your host computer (i.e., as a regular program or app). Then, you use VirtualBox to create a virtual machine guest. Once you have created a guest, you install Ubuntu 22.04 inside of the guest. Then, you can start the guest and have a complete Ubuntu 22.04 environment within that guest. Isolation in Virtual Machine Guests Note well: Implicit here is that the guest is, to some extent, isolated from the host. This is very important and entails a number of conceptual hurdles if you are not used to virtualization: . | The clipboard is isolated. That is, if you copy something from your host environment, you cannot paste it inside the guest environment. This is because the VM guest is a completely independent operating system environment from your host. | Typing and mouse movements have to be captured by the guest. | If you want to download a file to use in the guest, you must do so from the guest environment. Unless you set up a shared drive (which is not required), you have to download or create files within the guest environment rather than the host environment. | . Installing VirtualBox . You can install VirtualBox with the default settings. For your reference, screenshots of the course staff completing the installation are shown below: . If you receive a “The installation failed.” message on a Mac, you can resolve the issue by going to Security and Privacy and allowing the installation. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/ubuntu.html#option-1--local-virtual-machine",
     "relUrl": "/tutorials/ubuntu.html#option-1--local-virtual-machine"
-  },"49": {
+  },"50": {
     "doc": "Ubuntu Setup Guide",
     "title": "Creating a Virtual Machine",
     "content": "After installing VirtualBox, it will display the main VM Management console, which we can use to create a New Machine (see circular highlight in upper left): . Next, configure your virtual machine. Select “Type” as “Linux” and “Version” as “Ubuntu 64-bit”. (If you only see options for 32-bit and do not see options for 64-bit, you will not be able to complete this option and will instead have to use the Amazon EC2 Cloud instance option. This happens to some students with older 32-bit Mac machines that cannot emulate 64-bit guests.) You can name your VM whatever you like (though note that the name in the picture is from a different course than this one that uses the same setup). We recommend using at least 2048MB of Memory. See highlights below: . Next, it will ask you to create a storage device. Remember, you are creating a virtual machine — an entire simulated computer. That includes simulating a hard disk for storage. This is represented as a large (&gt; 20GB file) on your host computer. We recommend at least 20GB, and you can choose “dynamically allocated” to save space: . After this step, you will have successfully created a Virtual Machine. Now, you have a bare system with nothing installed on it. Next, we must install an OS on it to run the VM. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/ubuntu.html#creating-a-virtual-machine",
     "relUrl": "/tutorials/ubuntu.html#creating-a-virtual-machine"
-  },"50": {
+  },"51": {
     "doc": "Ubuntu Setup Guide",
     "title": "Installing an OS in the Guest VM",
     "content": "After creating a VM, we need to install Ubuntu 22.04 on it to help run software. Remember downloading a large .iso file as indicated above when we discussed downloading Ubuntu (if you missed it, you should go back and download it now)? This is a Disk Image — we need to attach the OS Disk Image into the VM. On the VM Management window, right click the VM you just created, and click “Settings”: . Next, click on “Storage”, then click on the “Empty IDE Controller” (your version of VirtualBox may call this a CD drive, Optical storage drive, or similar. Regardless, you should be able to select a virtual disk image). Click the Disk icon, then click “Choose disk file…”: . Then, select the Ubuntu .iso file you downloaded earlier. This places the Ubuntu 22.04 installation medium in the VM’s disk drive. Click OK, and you are now ready to start your VM from the Manager (note: the image below is from a previous version of the course that used Ubuntu 16.04 instead of Ubuntu 22.04. When you do this, your .iso file must be for Ubuntu 22.04.): . If you receive a “Kernel driver not installed” error, follow these instructions online for how to resolve the issue. (The image below shows the “Kernel driver not installed” error, for your reference.) . The Virtual Machine will now boot and load the Ubuntu 22.04 installation. The VM opens in a new window — you can think of this window as the virtual “screen” that lets you see what’s happening in the emulated system. You can follow through the normal Ubuntu 22.04 installation: . Note: If the VM asks you to select a startup disk, you need only select your .iso file. You want the VM to boot from the installation media so you can install Ubuntu within the guest. We recommend opting to install updates and third-party software. It should not affect the system one way or another: . You can select “Erase disk and install Ubuntu”. This is only referring to erasing the “virtual” disk you created earlier with the VM. If you are receiving an error like the “following disc images couldn’t be opened for the reason of no mountable file systems”, you may be able to resolve the issue by following recommendations online . Note: Sometimes during installation, students find that a window is too large to display all the buttons. You can actually move the window like normal to reveal the Continue button (just click to drag the window like any other — the window inside the Virtual Machine, not the Virtual Machine itself): . Next, it will ask you to create an account for logging in. You can put whatever credentials you like here — it will not have any bearing on your host computer. This is merely for an account on the guest VM. Just make sure you don’t forget whatever password you choose! . Next, you just wait a bit for the OS to install inside the guest. It might take a few minutes to complete. Eventually, you’ll see a screen asking you to remove installaton media and restart. You can just click restart (on the guest) and you’ll be all set! . Virtual Machines and Mice While you’re running the VM, you may find that it “takes control” of your mouse and keyboard, and you aren’t able to leave the window. If this happens, press CTRL+ALT to release control from the VM window. (The keystrokes may be different on Mac OS). ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/ubuntu.html#installing-an-os-in-the-guest-vm",
     "relUrl": "/tutorials/ubuntu.html#installing-an-os-in-the-guest-vm"
-  },"51": {
+  },"52": {
     "doc": "Ubuntu Setup Guide",
     "title": "Install VirtualBox Additions",
     "content": "One thing you’ll notice when you install your VM successfully is that the window is small. In our opinion, one thing that makes the experience way better is the VirtualBox Additions package. It provides a number of “Quality of Life” features when using VMs. It’s essentially a helper program you install inside the VM guest that makes it “aware” that it’s running inside of a VM. To install, click “Devices”, then “Insert Guest Additions CD Image…” . Eventually, a window pops up asking if you want to run the media. Just click Run. After installing, you can reboot the VM image. One more step to make sure gcc (a compiler for C and C++ programs) is installed in your guest. In a terminal, use: . sudo apt-get update sudo apt-get install gcc . You’re all set! . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/ubuntu.html#install-virtualbox-additions",
     "relUrl": "/tutorials/ubuntu.html#install-virtualbox-additions"
-  },"52": {
+  },"53": {
     "doc": "Ubuntu Setup Guide",
     "title": "Option 2 — Amazon EC2",
     "content": "Note well: This option will take longer than Option 1. Amazon AWS accounts can take up to 24 hours to verify, which means you may have to wait before you can use it for an assignment or demo. Start early! . You will need a Secure Shell (SSH) client. SSH allows you to remotely interact with a server. (If you’ve never used SSH before, scrolling back up the page and watching the appropriate section of the “Linux Fundamentals” video might help.) When you SSH to a remote computer, you have access to a command prompt that runs software on that computer. We will be using SSH to interact with a virtual machine we create in the cloud with Amazon EC2. On Windows, I recommend using WSL to run SSH. You can also use PuTTY. On Mac, you should already have ssh installed. Open a terminal and you can run ssh. On Linux, you can use ssh, but you may need to install it first (e.g., sudo apt-get install openssh or similar, depending on your platform). It is your responsibility to understand how to use SSH, though we give some pointers below. Amazon EC2 is a cloud computing service that allows you to rent virtual machines that you can ssh to and run programs like any other computer. Amazon offers a large number of cloud-based services all under the umbrella of AWS (Amazon Web Services). EC2 is a subset of AWS. In this section, you will create an AWS account to manage EC2 virtual machines. You can sign up for a new account on Amazon EC2, and in doing so, you get 12 months of free access to a virtual machine that is enough to complete the assignments in this course. If you do not already have an Amazon EC2 account, navigate to https://aws.amazon.com/ec2/ and click “Create new account” in the upper right. Complete the sign up process. You may be prompted for credit card information, however you should not be charged as long as you create only one virtual machine on the free tier. You then will have access to the Amazon AWS Console. If you are prompted, you want to sign in as a “Root” user for the AWS console. AWS Account Creation Note that it can take 24 hours for Amazon to verify your account. We believe this is because they manually review account creation — after all, they are giving you access to computing resources. Since cloud services are easily abused (e.g., for spam emails, command and control virus management, and distributed denial of service attacks), Amazon applies a bit of scrutiny to AWS users. Start early! . Notice: AWS Web GUI Changes Some of the screenshots in this guide are from older versions of the AWS Web Interface. The GUI changes fairly frequently and so your view may look a little different from the screenshots. Everything is fine and it’s good practice to follow along with documentation that is not an exact match. The course staff verified that the instructions work and pass the HW0 autograder most recently on 8/27/2022. If you believe you’ve discovered a problematic difference between this guide and the current version of the AWS GUI, contact your TA. Creating a New VM . Now that you have created an account, you can use the AWS Console to help manage and launch virtual machine instances. We will walk you through the steps to create an Ubuntu 22.04 VM below. (1) Open the AWS Console . After you create an AWS account, you can visit the AWS Console at https://console.aws.amazon.com. At the console, you should be greeted with a large screen full of many services. See highlight on left: . Click here to see AWS Console screenshot . (2) Open the EC2 Manager . From the AWS Console, click the “EC2” link to open the Elastic Cloud Compute manager. The EC2 Manager lets you manage and launch Instances, which are virtual machines that you configure. The first thing we need to do is configure and launch a new instance. Click the Launch Instance button. Click here to see EC2 Manager screenshot . (3) Choose an Ubuntu 22.04 LTS Instance . This is the most important step. You must select an Ubuntu Server 22.04 LTS (HVM), SSD Volume Type instance. This is a free tier eligible instance that contains an environment suitable for completing the rest of the assignments. Don’t pick other versions of Ubuntu (NOT 18.04 or 20.04, etc.). The autograder uses Ubuntu 22.04 (in an AWS VM!), so if you want the smoothest experience, use that version. As of 1/12/2023, the correct image is the default for Ubuntu: . Click here to see screenshot of the instructor selecting the correct VM image . After that you can fill out the rest of the selection (e.g., making certain to select your key pair for that instance) and then verify that it is in the Free Tier. Click here for \"free tier\" screenshot . (4) Configure Your Instance . After you select the image to launch, it may ask you a few questions about storage (pick the default if so). Usually, it will skip ahead and ask you about instance details. You want to pick the free version, called a t2.micro instance. If you were using cloud computing for a business or another project, you could configure resources like (a) how many CPUs, (b) how much RAM, and (c) what type of storage you get on the VM. For this course, just pick “t2.micro” to get the free level. Click here for instance type selection screenshot . (5) Configure Authentication . After you set up your instance, you need to create a way to login. This is a tricky security problem because Amazon wants to give you root (Administrator) access to your new instance. The way they do this is by using asymmetric key encryption. Basically, Amazon will let you download a file that serves as your credentials. Rather than entering a password, you will provide this special file to let you login. If you’d like to learn more about asymmetric key encryption, take a security course. Now, you will be prompted to set up credentials for logging in. Select Create a new key pair and type in any name (the examples use “eecs481” in the screenshots below). (If you are given a key type option, like “RSA” vs. “ED22519”, pick “RSA”.) Then, click Download Key Pair. It is imperative that you keep this file in a secure location. Do not upload it to GitHub, do not move it around. This is basically like a password for accessing your instance — you wouldn’t want someone malicious to access your instance and do something bad with it (you would be legally responsible for whatever they did!). Click here for keypair creation screenshot . Once you had downloaded your Key Pair, you should be able to Launch your instance. Do so and continue. There is a screenshot below showing what you should see after launching your instance. Click here for launch confirmation screenshot . (6) Connect to Your Instance . At this point, you have set up an Ubuntu 22.04 instance on EC2 and created associated credentials. You now have a virtual machine running in the cloud that you can connect to. You will use ssh to connect to your instance. This is the recommended way — you could technically install a front-end and use remote desktop software, however we strongly recommend using the command line, since you will be using the CLI in many of the course assignments. From the EC2 Management Dashboard, right-click your running instance. You should see a menu pop up like below: . Click “Connect”. It will pop up a window giving you a number of options. Pick the “SSH Client” tab to see how to connect via ssh: . On this window, you will see the hostname of your EC2 instance to which you can ssh, as well as a number of instructions for connecting. Mac permissions errors Some students, especially those using Mac computers, report receiving permission errors when they try to SSH into their EC2 instances: . In this case, a command like . chmod go-rwx /path/to/eecs481.pem . usually resolves the issue. More information is available online about this SSH issue. Using Windows WSL to SSH to EC2 If you are using Windows Subsystem for Linux (WSL) to connect to your Amazon EC2 instance, you must prepare your key file before connecting. Our recommendation is to run the following (but use your path): . mkdir -p ~/.ssh/ cp /path/to/your/downloaded/eecs481.pem ~/.ssh chmod 400 ~/.ssh/eecs481.pem . Windows WSL does not apply Linux file permissions correctly unless you are dealing with files contained within the Linux FS. Moving your key to ~/.ssh/ will allow you to chmod 400 appropriately. The SSH client will not allow you to connect to any server using that key if it does not have the correct permissions. Recall you downloaded a .pem file when you set up authentication for your instance (see part 5 above). You must specify this file on your SSH client to connect to your instance. First, you must provide the correct access permissions to the .pem file. Usually, this means running chmod 400 /path/to/your/.pem. Once you do so, you can use the ssh command directly: . ssh -i /path/to/your/.pem ubuntu@&lt;your-EC2-hostname-here&gt; . (You must substitute in the path to your downloaded .pem file as well as the hostname of your EC2 instance, which takes the form of ec2-X-Y-Z.us.W.compute.amazonaws.com for some values of W, X, Y, and Z. Collect these values from the EC2 Console.) . If you receive an error that the path is “too long for Unix domain socket” or the like, open ~/.ssh/config in a text editor and modify the control path to match this (reference): . Host * ControlPath ~/.ssh/control/%C ControlMaster auto . At this point, you should be logged in to your EC2 Instance! See below for an example of connecting to such an instance from the WSL environment (though note that the machine in the screenshot uses an old version of Ubuntu. Your instance should be version 22.04 (codename: jammy) instead of version 16.04): . Once you’re all finished, you need one more step to install gcc (a compiler for C and C++ programs): . sudo apt-get update sudo apt-get install gcc . You can safely stop the VM instance when you aren’t using it (e.g., between homeworks) and restart it when you are. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/tutorials/ubuntu.html#option-2--amazon-ec2",
     "relUrl": "/tutorials/ubuntu.html#option-2--amazon-ec2"
-  },"53": {
+  },"54": {
     "doc": "Ubuntu Setup Guide",
     "title": "Final Remarks",
     "content": "There is some systems programming in this course. We will use a mixture of command line tools, multiple languages, and other large projects that you may not have seen, written, or used before. That’s the point. In software engineering, much of your day-to-day work will involve reading code and documentation, as well as getting things set up to run. We are big believers that this type of experience is some of the most valuable you can acquire as a student — it makes you more productive at other tasks. This tutorial is not meant to take more than 2 hours (excluding the time taken to download the Ubuntu 22.04 .iso in Option 1, or the Amazon AWS signup time in Option 2). Please contact us on Discord if you have any questions! . ",
