@@ -79,7 +79,7 @@
   },"13": {
     "doc": "Calendar",
     "title": "Week 3",
-    "content": "Mon Feb 3 PA1 (full) due Mon Feb 3 Compiler Structure Mandatory reading: Engineering a Compiler (EaC), Chapter 1 Wed Feb 5 Scoping and Types Mandatory reading: EaC 4.1 and 4.2 Fri Feb 7 PA2c1 due ",
+    "content": "Mon Feb 3 PA1 (full) due Mon Feb 3 Compiler Structure Mandatory reading: Engineering a Compiler (EaC), Chapter 1 Optional reading: Clark’s Removing Left Recursion . Wed Feb 5 Scoping and Types Mandatory reading: EaC 4.1 and 4.2 Fri Feb 7 PA2c1 due ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-3",
     "relUrl": "/calendar/#week-3"
   },"14": {
