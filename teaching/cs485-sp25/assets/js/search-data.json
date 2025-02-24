@@ -97,19 +97,19 @@
   },"16": {
     "doc": "Calendar",
     "title": "Week 6",
-    "content": "Mon Feb 24 PA2c2 due Mon Feb 24 Abstract Interpretation (1) Mandatory reading: Ernst’s Notes on Program Analysis, Chapter 2 through 2.12 Optional reading: EaC chapter 9 (alternative treatment to Ernst of much of the same material. I prefer Ernst, but the EaC treatment is good, too. If you’re struggling with Ernst, you should definitely read this.) . Wed Feb 26 Abstract Interpretation (2) Mandatory reading: Ernst’s Notes on Program Analysis, 2.13 through 2.20 Optional reading: Cousot and Cousot’s Abstract interpretation: a unified lattice model for static analysis of programs by construction or approximation of fixpoints (note that this is an old, tough to read paper. [Ernst] 2.22 has some notes to help you make sense of the paper.) . ",
+    "content": "Mon Feb 24 PA2c2 due Mon Feb 24 Operational Semantics (Part 2) Mandatory reading: Ernst’s Notes on Program Analysis, Chapter 2 through 2.12 Optional reading: EaC chapter 9 (alternative treatment to Ernst of much of the same material. I prefer Ernst, but the EaC treatment is good, too. If you’re struggling with Ernst, you should definitely read this.) . Wed Feb 26 Abstract Interpretation (1) Mandatory reading: Ernst’s Notes on Program Analysis, 2.13 through 2.20 Optional reading: Cousot and Cousot’s Abstract interpretation: a unified lattice model for static analysis of programs by construction or approximation of fixpoints (note that this is an old, tough to read paper. [Ernst] 2.22 has some notes to help you make sense of the paper.) . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-6",
     "relUrl": "/calendar/#week-6"
   },"17": {
     "doc": "Calendar",
     "title": "Week 7",
-    "content": "Mon Mar 3 PA2 (full) due Mon Mar 3 Intermediate Representations Mandatory reading: EaC 5 Wed Mar 5 x86-64 Assembly Mandatory reading: EaC 6 through 6.4 Fri Mar 7 PA3c1 due ",
+    "content": "Mon Mar 3 PA2 (full) due Mon Mar 3 Abstract Interpretation (2) Mandatory reading: none; make sure you’ve done the readings from last week Wed Mar 5 Intermediate Representations Mandatory reading: EaC 5 Fri Mar 7 PA3c1 due ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-7",
     "relUrl": "/calendar/#week-7"
   },"18": {
     "doc": "Calendar",
     "title": "Week 8",
-    "content": "Mon Mar 10 Code Generation (1) Mandatory reading: EaC 7 through 7.4 Wed Mar 12 Code Generation (2) Mandatory reading: EaC 7.5 through end of 7 Fri Mar 14 PA3c2 due ",
+    "content": "Mon Mar 10 x86-64 Assembly Mandatory reading: EaC 6 through 6.4 Wed Mar 12 Code Generation (1) Mandatory reading: EaC 7 through 7.4 Fri Mar 14 PA3c2 due ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-8",
     "relUrl": "/calendar/#week-8"
   },"19": {
@@ -121,7 +121,7 @@
   },"20": {
     "doc": "Calendar",
     "title": "Week 10",
-    "content": "Mon Mar 24 Mid-term Exam (in-class) see the exams page for more information Wed Mar 26 Multi-language Projects Mandatory reading: Extending Python with C or C++ ",
+    "content": "Mon Mar 24 Code Generation (2) Mandatory reading: EaC 7.5 through end of 7 Wed Mar 26 Mid-term Exam (in-class) see the exams page for more information ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-10",
     "relUrl": "/calendar/#week-10"
   },"21": {
@@ -145,7 +145,7 @@
   },"24": {
     "doc": "Calendar",
     "title": "Week 14",
-    "content": "Mon Apr 21 PA4c1 due Mon Apr 21 Automatic Memory Management Mandatory reading: TBD Wed Apr 23 Exceptions Mandatory reading: TBD ",
+    "content": "Mon Apr 21 PA4c1 due Mon Apr 21 Automatic Memory Management or Multi-language Projects Mandatory reading: TBD or Extending Python with C or C++ (2)](../assets/lecture-cg2.pdf) Wed Apr 23 Exceptions Mandatory reading: TBD ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-14",
     "relUrl": "/calendar/#week-14"
   },"25": {
