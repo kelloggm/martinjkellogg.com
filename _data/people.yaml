@@ -48,6 +48,7 @@ oscarch:
 
 ln3:
   name: "Loi Ngo Duc Nguyen"
+  webpage: "https://sites.google.com/ucr.edu/loinguyen"
 
 ma234:
   name: "Muyeed Ahmed"
@@ -78,3 +79,12 @@ erfan:
 nima:
   name: "Nima Karimipour"
   webpage: "https://nimakarimipour.github.io/"
+
+tahiat:
+  name: "Tahiatul Islam"
+
+theron:
+  name: "Theron Wang"
+
+sl885:
+  name: "Sam Lenz"
