@@ -85,7 +85,7 @@
   },"14": {
     "doc": "Calendar",
     "title": "Week 4",
-    "content": "Mon Feb 10 Typechecking and Static Semantics Mandatory reading: EaC 4.3 Optional reading: Chapter 30 (“Type Inference”) of Krishnamurthi’s Programming Languages: Application and Interpretation (pages 289-299 in the linked PDF) . Wed Feb 12 More Static Semantics Mandatory reading: EaC 4.4 Optional reading: Hoare’s Proof of a Program: FIND and/or Djikstra’s Guarded Commands, Nondeterminacy, and Formal Derivation of Programs . ",
+    "content": "Mon Feb 10 Typechecking and Static Semantics Mandatory reading: EaC 4.3 Optional reading: Chapter 30 (“Type Inference”) of Krishnamurthi’s Programming Languages: Application and Interpretation (pages 289-299 in the linked PDF) . Wed Feb 12 More Static Semantics Mandatory reading: EaC 4.4 Optional reading: Hoare’s Proof of a Program: FIND and/or Dijkstra’s Guarded Commands, Nondeterminacy, and Formal Derivation of Programs . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-4",
     "relUrl": "/calendar/#week-4"
   },"15": {
