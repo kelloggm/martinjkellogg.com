@@ -145,13 +145,13 @@
   },"24": {
     "doc": "Calendar",
     "title": "Week 14",
-    "content": "Mon Apr 21 PA4c1 due Mon Apr 21 Automatic Memory Management or Multi-language Projects Mandatory reading: TBD or Extending Python with C or C++ (2)](../assets/lecture-cg2.pdf) Wed Apr 23 Exceptions Mandatory reading: TBD ",
+    "content": "Mon Apr 21 PA4c1 due Mon Apr 21 Automatic Memory Management Mandatory reading: TBD Wed Apr 23 Linking, Loading, and Shared Libraries Mandatory reading: CD 3.8 and 14.7 ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-14",
     "relUrl": "/calendar/#week-14"
   },"25": {
     "doc": "Calendar",
     "title": "Week 15",
-    "content": "Mon Apr 28 Linking, Loading, and Shared Libraries Mandatory reading: CD 3.8 and 14.7 Wed Apr 30 Pluggable Type Systems Mandatory reading: The Checker Framework manual, chapters 1, 2, and 3 (except 2.2.2, which you can skip). Optional reading: Kellogg et al.’s Lightweight Verification of Array Indexing and Banerjee et al.’s NullAway: Practical Type-Based Null Safety for Java . ",
+    "content": "Mon Apr 28 Pluggable Type Systems Mandatory reading: The Checker Framework manual, chapters 1, 2, and 3 (except 2.2.2, which you can skip). Optional reading: Kellogg et al.’s Lightweight Verification of Array Indexing and Banerjee et al.’s NullAway: Practical Type-Based Null Safety for Java . Wed Apr 30 Erfan Arvan guest lecture on Exceptions Mandatory reading: TBD ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-15",
     "relUrl": "/calendar/#week-15"
   },"26": {
