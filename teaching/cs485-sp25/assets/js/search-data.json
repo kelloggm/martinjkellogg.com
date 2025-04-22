@@ -145,7 +145,7 @@
   },"24": {
     "doc": "Calendar",
     "title": "Week 14",
-    "content": "Mon Apr 21 Linking, Loading, and Shared Libraries Mandatory reading: CD 3.8 and 14.7 Wed Apr 23 Automatic Memory Management Mandatory reading: TBD ",
+    "content": "Mon Apr 21 Linking, Loading, and Shared Libraries Mandatory reading: CD 3.8 and 14.7 Optional reading: Davis’ Software Usability II (a description of how software engineering (and shared libaries, called “DSO”s) played out as Silicon Graphics was developing the IRIX Operating System for the SGI Indy workstation) . Wed Apr 23 Automatic Memory Management Mandatory reading: EaC 6.6.2 Optional reading: Bacon et al.’s A Unified Theory of Garbage Collection . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-14",
     "relUrl": "/calendar/#week-14"
   },"25": {
