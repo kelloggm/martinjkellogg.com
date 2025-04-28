@@ -151,7 +151,7 @@
   },"25": {
     "doc": "Calendar",
     "title": "Week 15",
-    "content": "Mon Apr 28 PA4c1 due Mon Apr 28 Pluggable Type Systems Mandatory reading: The Checker Framework manual, chapters 1, 2, and 3 (except 2.2.2, which you can skip). Optional reading: Kellogg et al.’s Lightweight Verification of Array Indexing and Banerjee et al.’s NullAway: Practical Type-Based Null Safety for Java . Wed Apr 30 Erfan Arvan guest lecture on Exceptions Mandatory reading: The Java Language Specification’s section on Exceptions Optional reading: Exceptions from Bloch’s Effective Java, or Chapter 14 of Pierce’s Types and Programming Languages. ",
+    "content": "Mon Apr 28 PA4c1 due Mon Apr 28 Pluggable Type Systems Mandatory reading: The Checker Framework manual, chapters 1, 2, and 3 (except 2.2.2, which you can skip). Optional reading: Foster et al.’s A Theory of Type Qualifiers, Kellogg et al.’s Lightweight Verification of Array Indexing, and/or Banerjee et al.’s NullAway: Practical Type-Based Null Safety for Java . Wed Apr 30 Erfan Arvan guest lecture on Exceptions Mandatory reading: The Java Language Specification’s section on Exceptions Optional reading: Exceptions from Bloch’s Effective Java, or Chapter 14 of Pierce’s Types and Programming Languages. ",
     "url": "/martinjkellogg.com/teaching/cs485-sp25/calendar/#week-15",
     "relUrl": "/calendar/#week-15"
   },"26": {
