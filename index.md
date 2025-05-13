@@ -107,14 +107,14 @@ I've made my academic job market materials publicly available:
 
   <a href="https://web.njit.edu/~ks225/">Kazi Amanul Islam Siddiqui</a>, PhD student, 2023-present <br>
   <a href="https://web.njit.edu/~ea442/">Erfan Arvan</a>, PhD student, 2023-present <br>
-  <a href="https://sites.google.com/ucr.edu/loinguyen">Loi Nguyen</a>, undergraduate student, 2022-2024 (starting a PhD at UC Riverside in Fall 2024)<br>
+  <a href="https://sites.google.com/ucr.edu/loinguyen">Loi Nguyen</a>, undergraduate student, 2022-2024 (PhD at UC Riverside since Fall 2024)<br>
 </section>
 
 <section id="service">
   <h2> Professional Service </h2>
   Program Committee member, FSE 2025 <br>
-  Sponsorship Chair, SPLASH 2024 <br>
-  Program Committee member, ISSTA 2023-24 <br>
+  Sponsorship Co-chair, SPLASH 2024-5 <br>
+  Program Committee member, ISSTA 2023-25 <br>
   Student Research Competition judge, ESEC/FSE 2023 <br>
   Co-chair for Student Volunteers, ISSTA 2023 <br>
   Student Research Competition judge, PLDI 2023 <br>
