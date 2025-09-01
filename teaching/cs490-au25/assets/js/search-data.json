@@ -121,7 +121,7 @@
   },"20": {
     "doc": "Calendar",
     "title": "Week 5",
-    "content": "Sep 29 Individual Project Proposal due Sep 29 Process Mandatory reading: The Agile Manifesto and its Twelve Principles (this should be a quick read, but I suggest you think about what it is advocating for at least a few minutes before moving onto the next article) and Santo’s “Waterfall” doesn’t mean what you think it means Your Choice reading: Anda et al.’s Variability and Reproducibility in Software Engineering: A Study of Four Companies that Developed the Same System . Oct 1 Working in Teams Mandatory reading: Fowler’s Two Pizza Team and Jackson’s The Google Technical Interview Your Choice reading: Behroozi et al.’s Hiring is Broken: What Do Developers Say About Technical Interviews? . Oct 3 Team Assignments published no later than this date. ",
+    "content": "Sep 29 Individual Project Proposal due Sep 29 Process Mandatory reading: The Agile Manifesto and its Twelve Principles (this should be a quick read, but I suggest you think about what it is advocating for at least a few minutes before moving onto the next article) and Santo’s “Waterfall” doesn’t mean what you think it means Your Choice reading: Anda et al.’s Variability and Reproducibility in Software Engineering: A Study of Four Companies that Developed the Same System . Oct 1 Working in Teams Mandatory reading: Fowler’s Two Pizza Team and Arguelles’ My favorite coding question to give candidates (and why) Your Choice reading: Behroozi et al.’s Hiring is Broken: What Do Developers Say About Technical Interviews? . Oct 3 Team Assignments published no later than this date. ",
     "url": "/martinjkellogg.com/teaching/cs490-au25/calendar/#week-5",
     "relUrl": "/calendar/#week-5"
   },"21": {
@@ -133,7 +133,7 @@
   },"22": {
     "doc": "Calendar",
     "title": "Week 7",
-    "content": "Oct 13 Project Plan due Oct 13 Code Review Mandatory reading: Google’s How to do a code review (read all six linked sub-pages in the bulleted list) Your Choice reading: Bacchelli and Bird’s Expectations, Outcomes, and Challenges Of Modern Code Review . Oct 15 Languages Mandatory reading: Howarth’s Why Discord is Switching from Go to Rust Your Choice reading: Hoare’s Hints on Programming Language Design (shorter than it looks!) . ",
+    "content": "Oct 13 Project Plan due Oct 13 Code Review Mandatory reading: Google’s How to do a code review (read all six linked sub-pages in the bulleted list) Your Choice reading: Bacchelli and Bird’s Expectations, Outcomes, and Challenges Of Modern Code Review . Oct 15 Languages Mandatory reading: Howarth’s Why Discord is Switching from Go to Rust and Schwab’s Safety through Incompatibility Your Choice reading: Hoare’s Hints on Programming Language Design (shorter than it looks!) . ",
     "url": "/martinjkellogg.com/teaching/cs490-au25/calendar/#week-7",
     "relUrl": "/calendar/#week-7"
   },"23": {
@@ -145,7 +145,7 @@
   },"24": {
     "doc": "Calendar",
     "title": "Week 9",
-    "content": "Oct 27 Revised Project Plan due Oct 27 Debugging (1) Mandatory reading: Zeil’s Debugging – Using Hypotheses to Track Down the Culprit and Taylor’s Debugging Your Choice reading: Ko and Myers’ Designing the WhyLine: A Debugging Interface for Asking Questions about Program Behavior . Oct 29 Debugging (2) Mandatory reading: Zeller’s Automated Debugging: Are We Close? Your Choice reading: Cleve and Zeller’s Locating Causes of Program Failures . Oct 31 Project Deployment Demo due ",
+    "content": "Oct 27 Revised Project Plan due Oct 27 Debugging (1) Mandatory reading: Zeil’s Debugging – Using Hypotheses to Track Down the Culprit and Taylor’s Debugging Your Choice reading: Ko and Myers’ Designing the WhyLine: A Debugging Interface for Asking Questions about Program Behavior . Oct 29 Debugging (2) Mandatory reading: Zeller’s Automated Debugging: Are We Close? and Alpert’s TODOs aren’t for doing Your Choice reading: Cleve and Zeller’s Locating Causes of Program Failures . Oct 31 Project Deployment Demo due ",
     "url": "/martinjkellogg.com/teaching/cs490-au25/calendar/#week-9",
     "relUrl": "/calendar/#week-9"
   },"25": {
@@ -163,7 +163,7 @@
   },"27": {
     "doc": "Calendar",
     "title": "Week 12",
-    "content": "Nov 17 Tech debt, refactoring, and maintenance (2) Mandatory reading: Spolsky’s Things you should never do, part I and Majors’ Friday Deploy Freezes Are Exactly Like Murdering Puppies Your Choice reading: Malkawi’s The art of software systems development: Reliability, Availability, Maintainability, Performance (RAMP) (read up through the 4 “Cases” and then skip to and read the Discussion) or Scully et al.’s Machine Learning: The High-Interest Credit Card of Technical Debt . Nov 19 DevOps (1) Mandatory reading: Sloss’ “Introduction” and Baye’s “Emergency Response” from Google’s Site Reliability Engineering Your Choice reading: Dean and Barroso’s “The Tail at Scale” . Nov 21 Project Preliminary Demo due ",
+    "content": "Nov 17 Tech debt, refactoring, and maintenance (2) Mandatory reading: Spolsky’s Things you should never do, part I and Majors’ Friday Deploy Freezes Are Exactly Like Murdering Puppies Your Choice reading: Scully et al.’s Machine Learning: The High-Interest Credit Card of Technical Debt . Nov 19 DevOps (1) Mandatory reading: Sloss’ “Introduction” and Baye’s “Emergency Response” from Google’s Site Reliability Engineering Your Choice reading: Dean and Barroso’s “The Tail at Scale” . Nov 21 Project Preliminary Demo due ",
     "url": "/martinjkellogg.com/teaching/cs490-au25/calendar/#week-12",
     "relUrl": "/calendar/#week-12"
   },"28": {
