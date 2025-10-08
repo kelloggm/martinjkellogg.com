@@ -113,7 +113,8 @@ I've made my academic job market materials publicly available:
 
 <section id="service">
   <h2> Professional Service </h2>
-  Program Committee member, FSE 2025 <br>
+  Program Committee member, PLDI 2026 <br>
+  Program Committee member, FSE 2025-6 <br>
   Sponsorship Co-chair, SPLASH 2024-5 <br>
   Program Committee member, ISSTA 2023-25 <br>
   Student Research Competition judge, ESEC/FSE 2023 <br>
