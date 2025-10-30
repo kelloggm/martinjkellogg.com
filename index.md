@@ -88,7 +88,7 @@ I've made my academic job market materials publicly available:
 
 <section id="teaching">
   <h2> Teaching </h2>
-  Spring 2026: <a href="teaching/cs485-sp25/">CS 485/698: AI-Assisted Software Engineering</a> (Under Construction) <br> 
+  Spring 2026: <a href="teaching/cs485-sp26/">CS 485/698: AI-Assisted Software Engineering</a> (Under Construction) <br> 
   Fall 2025: <a href="teaching/cs490-au25/">CS 490: Guided Design in Software Engineering</a><br>	
   Spring 2025: <a href="teaching/cs485-sp25/">CS 485: Compilers</a> <br>
   Fall 2024: <a href="teaching/cs490-au24/">CS 490: Guided Design in Software Engineering</a><br>
