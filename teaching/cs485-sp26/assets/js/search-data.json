@@ -151,25 +151,25 @@
   },"25": {
     "doc": "Calendar",
     "title": "Week 5",
-    "content": "Sun Feb 15 Project requirements doc due Mon Feb 16 Frontend: Introduction Mandatory reading: TBD Special topics reading: Inside Out: Uncovering How Comment Internalization Steers LLMs for Better or Worse . Wed Feb 18 Frontend: Creating the UI Code Mandatory reading: TBD Optional reading: TBD . ",
+    "content": "Sun Feb 15 Project requirements doc due Mon Feb 16 Frontend: Introduction Mandatory reading: TBD Special topics reading: Inside Out: Uncovering How Comment Internalization Steers LLMs for Better or Worse . Wed Feb 18 Frontend: Creating the UI Code Reading: TBD ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-5",
     "relUrl": "/calendar/#week-5"
   },"26": {
     "doc": "Calendar",
     "title": "Week 6",
-    "content": "Sun Feb 22 Project specification doc due Mon Feb 23 Frontend: Creating UI Behaviors Mandatory reading: Good Vibrations? A Qualitative Study of Co-Creation, Communication, Flow, and Trust in Vibe Coding Optional reading: TBD . Before class on Feb 25 Reflection essay on LLMs for frontend dev due Wed Feb 25 Frontend: Discussion Mandatory reading: TBD Optional reading: TBD . ",
+    "content": "Sun Feb 22 Project specification doc due Mon Feb 23 Frontend: Creating UI Behaviors Mandatory reading: Good Vibrations? A Qualitative Study of Co-Creation, Communication, Flow, and Trust in Vibe Coding Before class on Feb 25 Reflection essay on LLMs for frontend dev due Wed Feb 25 Frontend: Discussion No reading ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-6",
     "relUrl": "/calendar/#week-6"
   },"27": {
     "doc": "Calendar",
     "title": "Week 7",
-    "content": "Sun Mar 1 Project frontend code initial submission due Mon Mar 2 Backend: Coding Lab Mandatory reading: TBD Special topic reading: A Causal Perspective on Measuring, Explaining and Mitigating Smells in LLM-Generated Code . Wed Mar 4 Backend: Notifications Mandatory reading: TBD Special topics reading: Smoke and Mirrors: Jailbreaking LLM-based Code Generation via Implicit Malicious Prompts . ",
+    "content": "Sun Mar 1 Project frontend code initial submission due Mon Mar 2 Backend: Coding Lab Mandatory reading: TBD Special topics reading: A Causal Perspective on Measuring, Explaining and Mitigating Smells in LLM-Generated Code . Wed Mar 4 Backend: Notifications Special topics reading: Smoke and Mirrors: Jailbreaking LLM-based Code Generation via Implicit Malicious Prompts ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-7",
     "relUrl": "/calendar/#week-7"
   },"28": {
     "doc": "Calendar",
     "title": "Week 8",
-    "content": "Mon Mar 9 Backend: Understanding Backends Special topic reading: From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging Before class on Mar 11 Reflection essay on LLMs for backend dev due Wed Mar 11 Backend: Discussion Mandatory reading: TBD Optional reading: TBD . Fri Mar 13 Project backend code initial submission due Mar 14 to Mar 22 Spring Break, no classes ",
+    "content": "Mon Mar 9 Backend: Understanding Backends Special topics reading: From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging Before class on Mar 11 Reflection essay on LLMs for backend dev due Wed Mar 11 Backend: Discussion No reading Fri Mar 13 Project backend code initial submission due Mar 14 to Mar 22 Spring Break, no classes ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-8",
     "relUrl": "/calendar/#week-8"
   },"29": {
@@ -187,31 +187,31 @@
   },"31": {
     "doc": "Calendar",
     "title": "Week 11",
-    "content": "Sun Apr 5 Project synthetic tests submission due Mon Apr 6 Deployment: Intro Mandatory reading: TBD Optional reading: TBD . Wed Apr 8 Deployment: Backend Mandatory reading: TBD Optional reading: TBD . ",
+    "content": "Sun Apr 5 Project synthetic tests submission due Mon Apr 6 Deployment: Intro Reading: TBD Wed Apr 8 Deployment: Backend Reading: TBD ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-11",
     "relUrl": "/calendar/#week-11"
   },"32": {
     "doc": "Calendar",
     "title": "Week 12",
-    "content": "Mon Apr 13 Deployment: CD Mandatory reading: TBD Optional reading: TBD . Before class on Apr 15 Reflection essay on deployment due Wed Apr 15 Deployment: Discussion Mandatory reading: TBD Optional reading: TBD . ",
+    "content": "Mon Apr 13 Deployment: CD Reading: TBD Before class on Apr 15 Reflection essay on deployment due Wed Apr 15 Deployment: Discussion No reading ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-12",
     "relUrl": "/calendar/#week-12"
   },"33": {
     "doc": "Calendar",
     "title": "Week 13",
-    "content": "Sun Apr 19 Project deployment due Mon Apr 20 Static analysis + LLMs: Intro Mandatory reading: TBD Special topic reading: PredicateFix: Repairing Static Analysis Alerts with Bridging Predicates . Wed Apr 22 Static analysis + LLMs: Discussion Special topic reading: LLM-Based Repair of Static Nullability Errors ",
+    "content": "Sun Apr 19 Project deployment due Mon Apr 20 Static analysis + LLMs: Intro Mandatory reading: TBD Special topics reading: PredicateFix: Repairing Static Analysis Alerts with Bridging Predicates . Wed Apr 22 Static analysis + LLMs: Discussion Special topics reading: LLM-Based Repair of Static Nullability Errors ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-13",
     "relUrl": "/calendar/#week-13"
   },"34": {
     "doc": "Calendar",
     "title": "Week 14",
-    "content": "Mon Apr 27 Slack or class’ choice Mandatory reading: TBD Optional reading: TBD . Before class on Apr 29 Reflection essay on special topic due (graduate students only) Wed Apr 29 Special topics discussion + course wrapup Mandatory reading: none ",
+    "content": "Mon Apr 27 Slack or class’ choice Reading: TBD Before class on Apr 29 Reflection essay on special topic due (graduate students only) Wed Apr 29 Special topics discussion + course wrapup No reading ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-14",
     "relUrl": "/calendar/#week-14"
   },"35": {
     "doc": "Calendar",
     "title": "Week 15",
-    "content": "Mon May 5 Project presentations Mandatory reading: TBD Mon May 5 Project final submission + postmortem due ",
+    "content": "Mon May 5 Project presentations No reading Mon May 5 Project final submission + postmortem due ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-15",
     "relUrl": "/calendar/#week-15"
   },"36": {
