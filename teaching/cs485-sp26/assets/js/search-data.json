@@ -139,7 +139,7 @@
   },"23": {
     "doc": "Calendar",
     "title": "Week 3",
-    "content": "Mon Feb 2 Requirements Engineering: User Discovery Lab Mandatory reading: Synthetic Users: If, When, and How to Use AI-Generated “Research” Background reading: The Mom Test by Rob Fitzpatrick. (Note: this is a book; it costs $10. You’re not required to read this, but you should be familiar with the ideas in it before class.) . Special topics reading: Analysis of LLMs vs Human Experts in Requirements Engineering . Wed Feb 4 Requirements Engineering: Creating Effective User Stories Background reading: INVEST in Good Stories, and SMART Tasks Special topics reading: When Prompts Go Wrong: Evaluating Code Model Robustness to Ambiguous, Contradictory, and Incomplete Task Descriptions . ",
+    "content": "Sun Feb 1 Project team declaration due Mon Feb 2 Requirements Engineering: User Discovery Lab Mandatory reading: Synthetic Users: If, When, and How to Use AI-Generated “Research” Background reading: The Mom Test by Rob Fitzpatrick. (Note: this is a book; it costs $10. You’re not required to read this, but you should be familiar with the ideas in it before class.) . Special topics reading: Analysis of LLMs vs Human Experts in Requirements Engineering . Wed Feb 4 Requirements Engineering: Creating Effective User Stories Background reading: INVEST in Good Stories, and SMART Tasks Special topics reading: When Prompts Go Wrong: Evaluating Code Model Robustness to Ambiguous, Contradictory, and Incomplete Task Descriptions . ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-3",
     "relUrl": "/calendar/#week-3"
   },"24": {
