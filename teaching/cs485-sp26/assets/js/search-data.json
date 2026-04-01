@@ -187,13 +187,13 @@
   },"31": {
     "doc": "Calendar",
     "title": "Week 11",
-    "content": "Sun Apr 5 Project synthetic tests submission due Mon Apr 6 Deployment: Intro Reading: TBD Wed Apr 8 Deployment: Backend Reading: TBD ",
+    "content": "Sun Apr 5 Project synthetic tests submission due Mon Apr 6 Deployment: Intro Mandatory reading: Amplify Tutorial Wed Apr 8 Deployment: Backend Mandatory reading: API Gateway Tutorial ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-11",
     "relUrl": "/calendar/#week-11"
   },"32": {
     "doc": "Calendar",
     "title": "Week 12",
-    "content": "Mon Apr 13 Deployment: CD Reading: TBD Before class on Apr 15 Reflection essay on deployment due Wed Apr 15 Deployment: Discussion No reading ",
+    "content": "Mon Apr 13 Deployment: CD and Monitoring Background reading: Ewaschuk’s Monitoring Distributed Systems Before class on Apr 15 Reflection essay on deployment due Wed Apr 15 Deployment: Discussion No reading ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-12",
     "relUrl": "/calendar/#week-12"
   },"33": {
@@ -211,7 +211,7 @@
   },"35": {
     "doc": "Calendar",
     "title": "Week 15",
-    "content": "Mon May 4 Project presentations No reading Mon May 4 Project final submission + postmortem due ",
+    "content": "Mon May 4 Project presentations No reading Mon May 4 Project final submission + postmortem due Wed May 6 Project presentations (note: this class day is a snow day makeup) No reading ",
     "url": "/martinjkellogg.com/teaching/cs485-sp26/calendar/#week-15",
     "relUrl": "/calendar/#week-15"
   },"36": {
