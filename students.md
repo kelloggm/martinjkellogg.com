@@ -8,8 +8,8 @@ I'm always happy to help bring enthusiastic, talented students into the research
 See the sections below for specific advice depending on your career stage, and feel free
 to email me if you have any questions.
 
-If you are curious about what research entails,
-I recommend reading [Michael Ernst's advice for students](https://homes.cs.washington.edu/~mernst/advice/#all-students).
+For all students,
+I recommend reading my PhD advisor [Michael Ernst's advice for students](https://homes.cs.washington.edu/~mernst/advice/#all-students).
 
 ### Prospective PhD Students
 
