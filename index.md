@@ -8,6 +8,8 @@ I'm an assistant professor at the New Jersey Institute of
 Technology, in the [Department of Computer Science](https://cs.njit.edu/).
 During the semester, you can usually find me in my office (GITC 4314); feel free to come by any
 time that my [calendar][calendar] says that I'm free.
+You can also use my [self-service "schedule a meeting with me" form](https://calendar.app.google/Sc5F8yHi1havwAAQ7),
+although if you are a prospective student you should [read this page first](students).
 
 My research focuses on making software verification practical
 for every developer: that is, on making verification a standard part
@@ -44,8 +46,8 @@ adopt more advanced verification technology. An example of this line of work
 is NullRepair, which automatically resolves "residual" warnings from NullAway
 after running type inference ([ISSTA 2026][nullrepair]).
 
-If any of these lines of work sound exciting to you, check out
-my [advice for prospective students](students).
+If any of these lines of work sound exciting to you and you want to get involved, check out
+my [page for prospective students](students).
 
 I completed my Ph.D. at the University of Washington
 [Paul G. Allen School of Computer Science & Engineering][allen].
