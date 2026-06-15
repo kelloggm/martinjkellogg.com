@@ -29,20 +29,20 @@ including:
 * type inference techniques for pluggable type systems, which can help
 overcome the "annotation burden" barrier to the adoption of lightweight
 verification techniques. Examples include Checker Framework Whole-Program
-Inference ([ASE 2023](wpi)) and RLC Inference ([OOPSLA 2023](rlci)).
+Inference ([ASE 2023][wpi]) and RLC Inference ([OOPSLA 2023][rlci]).
 * program comprehension, and especially whether verifiers can plausibly
 help us automatically discern where humans will struggle to understand
 code. This line of work started with a meta-analysis of prior studies that
-showed a small correlation ([FSE 2023](fse23)).
+showed a small correlation ([FSE 2023][fse23]).
 * indirectly scaling verification by shrinking programs while maintaining analysis behavior via
-a new technique that we've invented called "type-directed slicing" ([ISSTA 2025](tds)).
-Our prototype type-directed slicer is [open-source](specimin), and I encourage you
+a new technique that we've invented called "type-directed slicing" ([ISSTA 2025][tds]).
+Our prototype type-directed slicer is [open-source][specimin], and I encourage you
 to check it out!
 * combining formal methods (especially pluggable typecheckers) with AI code generation
 tools, both to improve the quality of the output of the models and to help engineers
 adopt more advanced verification technology. An example of this line of work
 is NullRepair, which automatically resolves "residual" warnings from NullAway
-after running type inference ([ISSTA 2026](nullrepair)).
+after running type inference ([ISSTA 2026][nullrepair]).
 
 If any of these lines of work sound exciting to you, check out
 my [advice for prospective students](students).
