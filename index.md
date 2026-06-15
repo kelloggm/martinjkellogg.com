@@ -6,13 +6,13 @@ layout: default
 
 I'm an assistant professor at the New Jersey Institute of
 Technology, in the [Department of Computer Science](https://cs.njit.edu/).
-You can find me most days in my office: GITC 4314; feel free to come by any
+During the semester, you can usually find me in my office (GITC 4314); feel free to come by any
 time that my [calendar][calendar] says that I'm free.
 
 My research focuses on making software verification practical
 for every developer: that is, on making verification a standard part
 of every developer's toolkit, in the way that techniques
-like unit testing or code review are today. My focus is primarily
+like unit testing or code review are today. My core research interests are focused
 on two approaches to making verification more practical:
 1. improving the expressivity of simple verification technologies: making
 it possible to prove more facts about a program within the constraints
@@ -24,6 +24,29 @@ verification technologies in new domains, and by improving the usability
 of verification. An example of this approach is my work on
 compliance verification ([ASE 2020][cc]).
 
+As faculty, my interests have expanded to several related lines of work,
+including:
+* type inference techniques for pluggable type systems, which can help
+overcome the "annotation burden" barrier to the adoption of lightweight
+verification techniques. Examples include Checker Framework Whole-Program
+Inference ([ASE 2023](wpi)) and RLC Inference ([OOPSLA 2023](rlci)).
+* program comprehension, and especially whether verifiers can plausibly
+help us automatically discern where humans will struggle to understand
+code. This line of work started with a meta-analysis of prior studies that
+showed a small correlation ([FSE 2023](fse23)).
+* indirectly scaling verification by shrinking programs while maintaining analysis behavior via
+a new technique that we've invented called "type-directed slicing" ([ISSTA 2025](tds)).
+Our prototype type-directed slicer is [open-source](specimin), and I encourage you
+to check it out!
+* combining formal methods (especially pluggable typecheckers) with AI code generation
+tools, both to improve the quality of the output of the models and to help engineers
+adopt more advanced verification technology. An example of this line of work
+is NullRepair, which automatically resolves "residual" warnings from NullAway
+after running type inference ([ISSTA 2026](nullrepair)).
+
+If any of these lines of work sound exciting to you, check out
+my [advice for prospective students](students).
+
 I completed my Ph.D. at the University of Washington
 [Paul G. Allen School of Computer Science & Engineering][allen].
 I worked in the [PLSE][] group under the supervision
@@ -31,7 +54,7 @@ of [Michael Ernst][mernst].
 
 Outside of work, I enjoy playing all kinds of games---video, tabletop,
 board, etc.---skiing, watching baseball and soccer,
-reading, and a little bit of tea snobbery.
+reading (especially ancient history and science fiction/fantasy), and a little bit of tea snobbery.
 Some of my favorite games include Civilization, Dungeons and
 Dragons, and Dominion. I'm a big fan of the Washington Nationals
 and of the Seattle Sounders.
@@ -56,6 +79,13 @@ I've made my academic job market materials publicly available:
 [occ]: papers/ICSE2020-camera-ready.pdf
 [cc]: papers/ase20-camera-ready.pdf
 [calendar]: https://calendar.google.com/calendar/u/0?cid=bWprNzZAbmppdC5lZHU
+[wpi]: papers/ase2023-camera-ready.pdf
+[rlci]: https://arxiv.org/pdf/2306.11953
+[fse23]: papers/esec-fse-2023-preprint.pdf
+[specimin]: https://github.com/njit-jerse/specimin
+[tds]: papers/issta25-camera-ready.pdf
+[nullrepair]: https://arxiv.org/pdf/2507.20674
+[students]: students
 
 </section>
 
