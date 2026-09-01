@@ -1,0 +1,16 @@
+The .html files in this directory are redirect stubs, not the course website.
+
+The Fall 2026 CS 490 site is deployed automatically from its own repository
+(github.com/kelloggm/cs-490-website, branch au26) to
+
+    https://kelloggm.github.io/cs-490-website/
+
+so that the co-instructors can update it without access to this repository.
+Every page that used to live under this path now redirects there. The non-HTML
+assets (PDFs, images) are left in place so that old deep links to them still
+resolve.
+
+After the semester ends, run replace.sh in the course repository once. It
+rebuilds the site with this directory's baseurl and overwrites these stubs with
+a frozen copy of the final site, turning this path back into a permanent archive
+like every previous semester.
