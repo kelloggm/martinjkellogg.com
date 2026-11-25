@@ -80,7 +80,7 @@ I've made my academic job market materials publicly available:
 [rlc]: papers/esec-fse-2021-camera-ready-updated.pdf
 [occ]: papers/ICSE2020-camera-ready.pdf
 [cc]: papers/ase20-camera-ready.pdf
-[calendar]: https://calendar.google.com/calendar/u/0?cid=bWprNzZAbmppdC5lZHU
+[calendar]: https://calendar.google.com/calendar/embed?src=mjk76%40njit.edu&ctz=America%2FNew_York
 [wpi]: papers/ase2023-camera-ready.pdf
 [rlci]: https://arxiv.org/pdf/2306.11953
 [fse23]: papers/esec-fse-2023-preprint.pdf
